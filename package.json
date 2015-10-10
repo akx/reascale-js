@@ -1,0 +1,17 @@
+{
+  "name": "reascale-js",
+  "version": "1.0.0",
+  "description": "Convert .reascale scale files to JavaScript",
+  "author": "Aarni Koskela <akx@iki.fi>",
+  "license": "MIT",
+  "main": "omnibus.js",
+  "devDependencies": {
+    "get-stdin": "^5.0.0",
+    "glob": "^5.0.15",
+    "javascript-stringify": "^1.0.1",
+    "minimist": "^1.2.0"
+  },
+  "scripts": {
+    "rebuild": "node convert-cli.js --all --omnibus=omnibus.js --dest-dir=js"
+  }
+}
