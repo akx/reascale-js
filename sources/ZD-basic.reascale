@@ -1,0 +1,149 @@
+# .reascale files can be loaded into the REAPER MIDI editor, via the Key dropdown list.
+#
+# Type 0 is a scale, type 1 is a chord.
+#
+# Lines starting with '#' are ignored.
+#
+# To create a scale definition, place each interval number
+# at the correct number of semitones from the left (root).
+#
+# For snapping to scale, all that matters is which values are not zero.
+# The actual interval numbers are only used when transposing, and can be repeated.
+# If needed (for exotic scales), use A=10, B=11, C=12.
+#
+
+
+0 "Major Pentatonic"		102030050600
+0 "Sus 4 Pentatonic"		102004050070
+0 "M3 Mj Pentatonic"		100304006070
+0 "Minor Pentatonic"		100304050070
+0 "Chinese 6 Pentatonic"	100030450007
+0 "Hirajoshi"			102300056000
+0 "Han - kumoi"			102004056000
+0 "Iwato"			120004500070
+0 "In"				120004056000
+0 "Yo"				102004050600
+0 "Pelog"			120300056000
+0 "Indonesian 2 Pentatonic"	120000456000
+0 "Indonesian 3 Pentatonic"	100034050007
+0 "Kumoi Scale"			102300050600
+0 "Sixtone Mode 1"		100230056007
+0 "Sixtone Mode 2"		120034005600
+0 "Prometheus"			102030406070
+0 "Prometheus Neopolitan"	120030406070
+0 "Whole-tone"			102030405070
+0 "Blues"			100304450070
+0 "Sus 4"			102004050670
+0 "Major"			102034050607
+0 "Dorian"			102304050670
+0 "Phrygian"			120304056070
+0 "Lydian"			102030450607
+0 "Mixolydian"			102034050670
+0 "Minor"			102304056070
+0 "Locrian"			120304506070
+0 "Harmonic Minor"		102304056007
+0 "Ionian Augmented"		102034005607
+0 "Dorian #4"			102300450670
+0 "Mixolydian b9b13"		120034056070
+0 "Lydian #9"			100230450607
+0 "Alt Dominant bb7"		120345006700
+0 "Medolic Minor"		102304050607
+0 "Dorian b2"			120304050670
+0 "Lydian Aug"			102030405607
+0 "Lydian b7"			102030450670
+0 "Mixolydian b13"		102034056070
+0 "Locrian Nat 9"		102304506070
+0 "Alt Dominant"		120230405070
+0 "Locrian Nat 6"		120304500670
+0 "Hungarian Folk"		120034056007
+0 "Purvi"			120030456007
+0 "Todi"			120300456007
+0 "Saba"			102340056070
+0 "Hungarian Major"		100230450670
+0 "Hungarian Gypsy 1"		102300456007
+0 "Hungarian Gypsy 2"		102300456070
+0 "Harmonic Major"		102034056007
+0 "Spanish Dominant"		120300456070
+0 "Smyrneiko"			102300450607
+0 "Mixolydian b9"		120034050670
+0 "Enigmatic"			120030405067
+0 "Major Locrian"		102034506070
+0 "Lydian Minor"		102030456070
+0 "Leading Wholetone"		102030405067
+0 "Persian"			120034506007
+0 "Oriental No1"		120034506070
+0 "Oriental No2"		120034500670
+0 "Neopolitan Major"		120304050607
+0 "Neopolitan Minor"		120304056007
+0 "Composite Blues"		100334450070
+0 "Whole-Half Dim"		102304506607
+0 "Half-Whole Dim"		120330450670
+0 "Japanese"			102034450607
+0 "Major Bebop"			102034055607
+0 "Dorian Bebop"		102334050607
+0 "Mixolydian Bebop 1"		102034050677
+0 "Mixolydian Bebop 2"		102034450670
+
+
+
+1 "Major"           100030050000
+1 "Minor"           100300050000
+1 "Diminished"      100300500000
+1 "Augmented"       100030005000
+1 "Sus 4"           100004050000
+1 "Sus 2"           102000050000
+1 "Flat 5"          100030500000
+1 "Major 7"         100030050007
+1 "Major 7 #5"      100030005007
+1 "Major 7 b5"      100030500007
+1 "Dominant 7"	    100030050070
+1 "Dominant 7 #5"   100030005070
+1 "Dominant 7 b5"   100030500070
+1 "Minor Major 7"   100300050007
+1 "Dim Major 7"     100300500007
+1 "Minor 7 b5"      100300500070
+1 "Diminished 7"    100300500700
+1 "Minor 7"         100300050070
+1 "minor 7 b5"      100300005070
+1 "Dominant sus 4"  100004050070
+1 "Major sus 4"     100004050007
+1 "Major 6"         100030050600
+1 "Minor 6"         100300050600
+1 "Major add 9"     109030050000
+1 "Minor add 9"     109300050000
+1 "Major 9"         109030050007
+1 "Maj 9 #5"        109030005007
+1 "Maj 9 b5"        109030500007
+1 "Dominant 9"      109030050070
+1 "Dom 9 b5"        109030500070
+1 "Dom 9 #5"        109030005070
+1 "Dom 7 #9"        100930050070
+1 "Dom 7 b9"        190030050070
+1 "Dom 7 #5 #9"     100930005070
+1 "Dom 7 #5 b9"     190030005070
+1 "Dom 7 b5 #9"     100930500070
+1 "Dom 7 b5 b9"     190030500070
+1 "Dom 9 sus 4"     109004050070
+1 "Min 9"           109300050070
+1 "Min 9 Maj 7"     109300050007
+1 "Dim Maj 9"       109300500007
+1 "Min 9 b5"        109300500070
+1 "Min 6/9"         109300050600
+1 "Maj 6/9"         109030050600
+1 "Maj 6/11"        10003B050600
+1 "Min 6/11"        10030B050600
+1 "Maj 9 #11"       109030B50007
+1 "Maj 9 #5 #11"    109030B05007
+1 "Dom 9 #11"       109030B50070
+1 "Dom 7 #9 #11"    100930B50070
+1 "Dom 7 b9 #11"    190030B50070
+1 "Dom 7"           10900B050070
+1 "Min 11"          10930B050070
+1 "Min 11 b5"       10930B500070
+1 "Maj 13 #11"      109030B50D07
+1 "Dom 13 #11"      109030B50D70
+1 "Dom 13 sus 4"    109004050D70
+1 "Dom 13 b9"       190030050D70
+1 "Dom 13"          109030050D70
+1 "Dom 13 b9 sus 4" 190004050D70
+1 "Min 13"          10930B050D70

@@ -1,0 +1,91 @@
+# .reascale files can be loaded into the REAPER MIDI editor, via the Key dropdown list.
+#
+# Type 0 is a scale, type 1 is a chord.
+#
+# Lines starting with '#' are ignored.
+#
+# To create a scale definition, place each interval number
+# at the correct number of semitones from the left (root).
+#
+# For snapping to scale, all that matters is which values are not zero.
+# The actual interval numbers are only used when transposing, and can be repeated.
+# If needed (for exotic scales), use A=10, B=11, C=12.
+#
+# examples:
+#
+# 0 "Major"           102034050607
+# 1 "Major triad"     100030050000
+# 0 "Blues"           100304450070
+# 1 "Dim 7th chord"   100300500700
+
+0 "Chromatic"         112334456677
+0 "Whole Tone"        102030506070
+0 "Dominant Dim"      120230450670
+0 "Diminished"	      102304505607
+0 "Augmented m3/st"   100230056007
+0 "Augmented st/m3    120034005600
+0 "Tritone"           120030450070
+
+0 "Be-Bop Major"      102034045607
+0 "Be-Bop Dominant"   102034050677
+
+0 "Maj Pentatonic"    102030050600
+0 "Min Pentatonic"    100304050070
+0 "Mel Min Pentatonic"102300050600
+0 "Maj Pentatonic b6" 102030056000
+0 "Balinese"          120300056000
+0 "Chinese"           100030450007
+0 "Egyptian"          102004050070
+0 "Japanese"          120004056000
+0 "Japanese 2"        102004056000
+
+0 "Dorian"	      102304050670
+0 "Phrygian"          120304056070
+0 "Lydian"            102030450607
+0 "Mixolydian"        102034050670
+0 "Aeolian"           102304056070
+0 "Locrian"           120304506070
+
+0 "Melodic Minor"     102304050607
+0 "Dorian b2"	      120304050670
+0 "Lydian Augmented"  102030405607
+0 "Lydian Dominant"   102030450670
+0 "Mixolydian b6"     102034056070
+0 "Locrian Natural 2" 102304506070	
+0 "Altered Dominant"  120230406070
+
+0 "Harmonic Minor"    102304056007
+0 "Har Min Mode 2"    120304500670
+0 "Har Min Mode 3"    102034005607
+0 "Har Min Mode 4"    102300450670
+0 "Phrygian Major"    120034056070
+0 "Har Min Mode 6"    100230450607
+0 "Har Min Mode 7"    120340506700
+
+0 "Harmonic Major"    102034056007
+0 "Double Harm Major" 120034056007
+
+0 "Neapolitan Major"  120304056007
+0 "Neapolitan Minor"  120304050607
+0 "Oriental"          120034500670
+0 "Enigmatic"         120030405067
+0 "Hungarian Major"   120030450670
+0 "Hungarian Minor"   102300456007
+0 "Locrian Major"     102034506070
+0 "Lydian Minor"      102030456070
+0 "Overtone"          102030450670
+0 "Whole Tone Maj7"   102030405067
+
+1 "Major 7th chord"   100030050007
+1 "Minor 7th chord"   100300050070
+1 "Dom 7th chord"     100030050070
+1 "Dom 7 sus4 chord"  100004050070
+1 "Dom 9th chord"     102030050070
+
+1 "Min/Maj 7th chord" 100300050007
+1 "Min 7b5 chord"     100300500070
+1 "Maj 7th Aug chord" 100030005007
+1 "Dom 7th #11 chord" 100030B00070
+1 "Dom 7th b9 chord"  190030050070
+1 "Dom 7th #9 chord"  100930050070
+1 "Dom 9th b13 chord" 109030056070

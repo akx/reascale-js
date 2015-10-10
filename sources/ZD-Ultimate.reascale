@@ -1,0 +1,2593 @@
+# .reascale files can be loaded into the REAPER MIDI editor, via the Key dropdown list.
+#
+# Type 0 is a scale, type 1 is a chord.
+#
+# Lines starting with '#' are ignored.
+#
+# To create a scale definition, place each interval number
+# at the correct number of semitones from the left (root).
+#
+# For snapping to scale, all that matters is which values are not zero.
+# The actual interval numbers are only used when transposing, and can be repeated.
+# If needed (for exotic scales), use A=10, B=11, C=12.
+#
+
+
+
+
+-1		
+2 "3 Note Scales"		
+0	"Chromatic TriMirror"		122000000000
+0	"Chromatic TriMirror"		112000000000
+0	"Do Re Mi "			102030000000
+0	"Flat 6 and 7"			100000000077
+0	"Major Flat 6"			100030006000
+0	"Major Triad 1"			100300006000
+0	"Major Triad 2"			100030050000
+0	"Major Triad 3"			100004000600
+0	"Messiaen 3rd Mode"		100030005000
+0	"Minor Triad 1"			100030000600
+0	"Minor Triad 2"			100300050000
+0	"Minor Triad 3"			100004006000
+0	"Minor TriChord"		102300000000
+0	"Phrygian TriChord"		120300000000
+0	"Sanagari 1"			100004000070
+0	"Sanagari 2"			100004000060
+0	"Sharp 6 and 7"			100000000067
+0	"Ute Tritone 1"			100300000070
+0	"Ute Tritone 2"			100200000060
+-2
+
+-1
+2 "4 note Scales"
+0	"Alternating TetraMirror 1"	120340000000
+0	"Alternating TetraMirror 2"	110230000000
+0	"Alternating TetraMirror 3"	120330000000
+0	"Alternating TetraMirror 4"	120230000000
+0	"Bi Yu"				100200050060
+0	"Chromatic TetraMirror 1"	122300000000
+0	"Chromatic TetraMirror 1"	112300000000
+0	"Diminished 7th Chord"		100300500600
+0	"Dorian TetraChord"		102304000000
+0	"Eskimo Tetratonic"		102030050000
+0	"Genus Primum Inverse"		100004050060
+0	"Har Minor TetraChord 1"	102300500000
+0	"Har Minor TetraChord 2"	102300400000
+0	"Har Minor TetraChord 3"	102200400000
+0	"Major TetraChord 1"		100030050060
+0	"Major TetraChord 2"		100030050007
+0	"Major  TetraChord 2"		100300006070
+0	"Major  TetraChord 3"		102004000070
+0	"Major TetraChord 4"		100004050600
+0	"Major TetraChord 5"		100030050070
+0	"Major TetraChord 6"		102000400600
+0	"Major TetraChord 7"		100304000600
+0	"Major TetraChord 8"		100004050070
+0	"Major TetraChord 9"		100300506000
+0	"Major TetraChord 10"		102004050000
+0	"Major TetraChord 11"		102034000000
+0	"Sixth TetraChord 1"		100030050600
+0	"Sixth TetraChord 2"		102004000600
+0	"Sixth TetraChord 3"		100300400600
+0	"Minor Seventh Chord"		100300050070
+0	"Phrygian TetraChord"		120304000000
+0	"Warao Minor TriChord"		102300000070
+0	"Whole-Tone Tetramirror"	102030400000
+
+-2
+
+-1
+2       "5 Note Scales"
+0	"Major Pentatonic"		102030050600
+0	"Minor Pentatonic"		100304050070
+0	"Pelog"				120300056000
+0	"Iwato"				120004500070
+0	"Kumoi Scale"			102300050600
+0	"Hirajoshi"			102300056000
+0	"Sus 4 Pentatonic"		102004050070
+0	"M3 Mj Pentatonic"		100304006070
+0	"Chinese 6 Pentatonic"		100030450007
+0	"Han - kumoi"			102004056000
+0	"In"				120004056000
+0	"Yo"				102004050600
+0	"Indonesian 2 Pentatonic"	120000456000
+0	"Indonesian 3 Pentatonic"	100034050007
+0	"No Name"			120030050600
+0	"Altered Pentatonic"		120004050600
+0	"Balinese Pentachord 1"		120030450000
+0	"Balinese Pentatonic 2"		110030450000
+0	"Blues #V"			100304400007
+0	"Blues Pentacluster 1"		122300500000
+0	"Blues Pentacluster 2"		112200400000
+0	"Blues PentaCluster 3"		112304000000
+0	"Blues PentaCluster 4"		112204000000
+0	"Blues PentaCluster 5"		112300000000
+0	"Blues PentaCluster 6"		122304000000
+0	"Blues#V all flats"		100304500008
+0	"Center-Cluster PentaMirror"	100234005000
+0	"Chaio 1"			102004006070
+0	"Chaio 2 "			102004005070
+0	"Chromatic PentaMirror"		112230000000
+0	"Dominant Pentatonic"		102030050070
+0	"Slendro"			103004060700
+0	"Half Diminished plus b8"	100300500078
+0	"Japanese Pentachord 1 "	120300450000
+0	"Javanese Pentachord 2"		110200450000
+0	"Kokin-Joshi"			120004050070
+0	"Kung"				102030400600
+0	"Locrian PentaMirror"		120304500000
+0	"Lydian Pentachord"		102030450000
+0	"Major Pentachord"		102034050000
+0	"Minor 6th Added"		100304050600
+0	"Minor Pentachord Chad G"	102304050000
+0	"Mixolydian Pentatonic 1"	100034050070
+0	"Mixolydian Pentatonic 2"	100034050060
+0	"Oriental Pentacluster 1"	112004400000
+0	"Oriental Pentacluster 2"	112004500000
+0	"Oriental Raga Guhamano"	102004000670
+0	"Romanian Bacovia 1"		100034006007
+0	"Romanian Bacovia 2"		100034005007
+0	"Spanish Pentacluster 1"	120344000000
+0	"Spanish Pentacluster 2"	120334000000
+0	"Spanish Pentacluster 3"	110234000000
+0	"Spanish Pentacluster 4"	120234000000
+-2
+
+
+-1
+2	"6 Note Scales"
+0	"Prometheus"			102030406070
+0	"Prometheus Neopolitan"		120030406070
+0	"Whole-tone"			102030405070
+0	"Blues"				100304450070
+0	"Sixtone Mode 1"		100230056007
+0	"Sixtone Mode 2"		120034005600
+0	"Sus 4"				102004050670
+0	"Augmented, Messiaen"		100330056007
+0	"Blues Dorian Hexatonic 1 "	102330050600
+0	"Blues Dorian Hexatonic 2"	120330050600
+0	"Blues Dorian Hexatonic 3"	110230050600
+0	"Blues Dorian Hexatonic 4"	110330050600
+0	"Blues Dorian Hexatonic 5"	120230050600
+0	"Blues Minor all flats"		100304550070
+0	"Blues Minor Maj7"		100304450007
+0	"Chromatic HexaMirror all #"	112234000000
+0	"Chromatic HexaMirror all b"	122334000000
+0	"Double-Phrygian Hexatonic"	120304500600
+0	"Eskimo Hexatonic 1"		102030405600
+0	"Eskimo Hexatonic 2"		102030405007
+0	"Genus Secundum"		100034050607
+0	"Hawaiian"			102300050607
+0	"Honchoshi Plagal Form"		120304500070
+0	"Lydian #2 Hexatonic"		100230050607
+0	"Lydian b3 Hexatonic"		100330050607
+0	"Lydian Hexatonic"		102030050607
+0	"Major Bebop Hexatonic"		102030055600
+0	"Major Blues alternate"		102230050600
+0	"Minor Hexatonic"		102304050070
+0	"Phrygian Hexatonic"		100304056070
+0	"Prometheus 2"			102030500670
+0	"Prometheus 3"			102030400670
+0	"Prometheus Neapolitan 2"	120030500670
+0	"Pyramid Hexatonic"		102304500600
+0	"Ritsu"				120304006070
+0	"Scottish Hexatonic Arezzo"	102034050600
+0	"Takemitsu Tree Line Mod 1"	102300506070
+0	"Takemitsu Tree Line Mod 2"	102200405007
+0	"Takemitsu Tree Line Mod 3"	102200405060
+0	"Takemitsu Tree Line Mod 4"	102300406007
+0	"Takemitsu Tree Line Mod 5"	102300506007
+0	"Whole tone alternate 1"	102030405060
+0	"Whole tone alternate 2"	102030406060
+0	"Whole tone alternate 3"	102030506070
+-2
+
+
+
+-1
+2	"7 Note Scales"
+0	"Major"				102034050607
+0	"Dorian"			102304050670
+0	"Phrygian"			120304056070
+0	"Lydian"			102030450607
+0	"Mixolydian"			102034050670
+0	"Minor"				102304056070
+0	"Locrian"			120304506070
+0	"Harmonic Minor"		102304056007
+0	"Harmonic Major"		102034056007
+0	"Medolic Minor"			102304050607
+0	"Hungarian Gypsy 1"		102300456007
+0	"Hungarian Gypsy 2"		102300456070
+0	"Hungarian Major"		100230450670
+0	"Enigmatic"			120030405067
+0	"Persian"			120034506007
+0	"Composite Blues"		100334450070
+0	"Ionian Augmented"		102034005607
+0	"Dorian #4"			102300450670
+0	"Mixolydian b9b13"		120034056070
+0	"Lydian #9"			100230450607
+0	"Alt Dominant bb7"		120345006700
+0	"Dorian b2"			120304050670
+0	"Lydian Aug"			102030405607
+0	"Lydian b7"			102030450670
+0	"Mixolydian b13"		102034056070
+0	"Locrian Nat 9"			102304506070
+0	"Alt Dominant"			120230405070
+0	"Locrian Nat 6"			120304500670
+0	"Hungarian Folk"		120034056007
+0	"Purvi"				120030456007
+0	"Todi"				120300456007
+0	"Saba"				102340056070
+0	"Spanish Dominant"		120300456070
+0	"Smyrneiko"			102300450607
+0	"Mixolydian b9"			120034050670
+0	"Major Locrian"			102034506070
+0	"Lydian Minor"			102030456070
+0	"Leading Wholetone"		102030405067
+0	"Oriental No1"			120034506070
+0	"Oriental No2"			120034500670
+0	"Neopolitan Major"		120304050607
+0	"Neopolitan Minor"		120304056007
+0	"Aeolian 2# 4# #5"		100230405607
+0	"Aeolian Flat 3b 5b 6b 8b"	100330506608
+0	"Aeolian Flat b3 b5 b6"		100330506607
+0	"Bhairubahar Thaat"		120034050607
+0	"Blues Heptatonic"		100304450670
+0	"Blues Modified"		102304450070
+0	"Blues Phrygian 1"		120304450070
+0	"Blues Phrygian 2"		120304550070
+0	"Blues with Leading Tone"	100304450067
+0	"Chromatic Dorian"		112004055600
+0	"Chromatic Dorian Inverse "	100234050067
+0	"Chromatic HeptaMirror"		112234400000
+0	"Chromatic Hypodorian 1"	102330056600
+0	"Chromatic Hypodorian 2"	102230055600
+0	"Chromatic Hypodorian Inv"	100234005670
+0	"Chromatic Hypophrygian"	112004450600
+0	"Chromatic Lydian"		120034500607
+0	"Chromatic Mixolydian 1"	112030450070
+0	"Chromatic Mixolydian 2"	112004450070
+0	"Chromatic Mixolydian 3"	112004450060
+0	"Chromatic Mixolydian Inv"	102004450067
+0	"Chromatic Phrygian"		100234005067
+0	"Chromatic Phrygian Inverse"	112030055600
+-2
+
+2       "7 Note Scales"
+0	"Dorian b5"			102304500670
+0	"Enigmatic Ascending 1"		110030405067
+0	"Enigmatic Ascending 2"		120030506078
+0	"Enigmatic Descending 1"	110034005067
+0	"Enigmatic Descending 2"	120034005067
+0	"Enigmatic Minor"		120300405067
+0	"Enigmatic Minor all #s"	110200405067
+0	"Enigmatic Minor all bs"	120300506078
+0	"Pelog alternate"		100040456007
+0	"Gipsy Hexatonic 1"		120004506670
+0	"Gipsy Hexatonic 2"		110004406670
+0	"Gipsy Hexatonic 3"		110004405660
+0	"Gipsy Hexatonic 4"		120004505670
+0	"Gypsy Hexatonic 5"		120034056600
+0	"Hindi 5 flats"			120330506070
+0	"Houzam"			100234050607
+0	"Hungarian Gypsy 1"		102300556070
+0	"Hungarian Gypsy 2"		102200455060
+0	"Phrygian dim 4th"		120340056070
+0	"Phrygian dim 4th alternate"	120230056070
+0	"Jazz Minor Inverse"		120304050670
+0	"Locrian 2"			102304506007
+0	"Locrian bb7"			120304506700
+0	"Lydian Augmented 2"		120340506070
+0	"Marva or Marvi"		120030450607
+0	"Marva Thaat"			110030450607
+0	"Major Bebop Heptatonic"	102034055600
+0	"Minor Bebop 1"			102330050670
+0	"Minor Bebop Heptatonic"	102230050670
+0	"Mixolydian Augmented"		102034005670
+0	"Mixolydian b5"			102034500670
+0	"Neapolitan Minor Mode"		112030405600
+0	"Nohkan 1"			102004506608
+0	"Nohkan 2"			102004505607
+0	"Rock 'n Roll 1"		100234050660
+0	"Rock 'n Roll 2"		100234050670
+0	"Romanian Major"		120030450670
+0	"Sabach 1"			102330056070
+0	"Sabach 2"			102230056070
+0	"Spanish Heptatonic 1"		100334406070
+0	"Spanish Heptatonic 2"		100234506070
+0	"Super Locrian all sharps"	110230405060
+0	"Superlocrian, Diminished 1"	110330406070
+0	"Superlocrian, Diminished 2"	120230506070
+0	"Todi b7 1"			110200450660
+0	"Todi b7 2"			120300450670
+0	"Ultra Locrian 1"		110230405600
+0	"Ultra Locrian 2"		120230405600
+-2
+
+
+
+
+
+-1
+2	"8 Note Scales"
+0	"Whole-Half Dim"		102304506607
+0	"Half-Whole Dim"		120330450670
+0	"Japanese"			102034450607
+0	"Major Bebop"			102034055607
+0	"Mixolydian Bebop 1"		102034050677
+0	"Mixolydian Bebop 2"		102034450670
+0	"Dorian Bebop"			102334050607
+0	"Adonai Malakh 1"		112304050670
+0	"Adonai Malakh 2"		122304050670
+0	"Algerian"			102304456007
+0	"Auxillary Diminished"		102304405607
+0	"Blues Diminished"		110230450660
+0	"Blues Octatonic"		102304450670
+0	"Chromatic OctaMirror"		112234450000
+0	"Diminished"			102304505607
+0	"Dorian Aeolian 1"		102304055670
+0	"Dorian Aoelian 2"		102304056670
+0	"Enigmatic alternate 1"		120034506077
+0	"Enigmatic alterate 2"		120034506067
+0	"Half-Dimiished Bebop"		120304556007
+0	"Half-Diminished Symmetrrical"	120230450670
+0	"Harmonic Neapolitan Minor 1"	122304056008
+0	"Harmonic Neapolitan Minor 2"	112204055007
+0	"Harmonic Neapolitan Minor3"	112304056007
+0	"Hungarian Minor b2"		112300456007
+0	"JG Octatonic "			120234050670
+0	"JG Octatonic all 3b"		120334050670
+0	"Lydian b3 "			102330450607
+0	"Lydian Dim b7"			102330450670
+0	"Lydian Dominant alternate"	102030450677
+0	"Magen Abot"			120230405607
+0	"Magen Abot (3b 2#)"		110330406607
+0	"Magen Abot all flats"		120340506708
+0	"Magen Abot all sharps"		110230405607
+0	"Maqam Hijaz"			120034056067
+0	"Maqam Shadd'araban 1"		120234500670
+0	"Maqam Shadd'araban 2"		120344500770
+0	"Minor Bebop 1"			102234050670
+0	"Minor Bebop 2"			102334050670
+0	"Minor Gypsy"			102300456077
+0	"Neveseri 1"			110200455067
+0	"Neveseri 2"			120300456067
+0	"Oriental 2"			120034500667
+0	"Phrygian Aeolian 1"		122304056070
+0	"Phrygian Aeolian 2"		112304056070
+0	"Phrygian Locrian 1"		120304456070
+0	"Phrygian Locrian 2"		120304556070
+0	"Phrygian Major 1"		120344056070
+0	"Phrygian Major 2"		120234056070
+0	"Prokofiev 1"			120304506078
+0	"Prokofiev 2"			120304506067
+0	"Shostakovich 1"		110230450607
+0	"Shostakovich 2"		120330550608
+0	"Shostakovich 3"		120230450607
+0	"Spanish 8 Tones 1"		120234506070
+0	"Spanish 8 Tones 2"		120344506070
+0	"Spanish 8 Tones 3"		120334506070
+0	"Utility Minor 1"		102304056067
+0	"Utility Minor 2"		102304056077
+0	"Zirafkend"			102304055607
+-2
+
+
+
+
+-1
+2	"9 Note Scales"
+0	"Blues Enneatonic"		102234450670
+0	"Chromatic Bebop 1"		122034050677
+0	"Chromatic Bebop 2"		112034050667
+0	"Chromatic Diatonic Dorian 1"	122304056670
+0	"Chromatic Diatonic Dorian 2"	112304055670
+0	"Chromatic NonaMirror"		112234455000
+0	"Chromatic Permuted Diatonic"	112034055607
+0	"Full Minor"			102304055667
+0	"Full Minor all flats"		102304056677
+0	"Genus Chromaticum 1"		120234055607
+0	"Genus Chromaticum 2"		110234055607
+0	"Genus Chromaticum 3"		120344056708
+0	"Houseini 1"			102334050600
+0	"Houseini 2"			102234055670
+0	"Kiourdi"			102304455670
+0	"Lydian Mixolydian 1"		102034450677
+0	"Lydian Mixolydian 2"		102034450667
+0	"Moorish Phrygian 1"		130034055077
+0	"Moorish Phrygian 2"		120234056067
+0	"Moorish Phrygian 3"		130034056077
+0	"Moorish Phrygian 4"		110234055067
+0	"Moorish Phrygian 5"		120344056078
+0	"Symmetrical Nonatonic 1"	112030455067
+0	"Symmetrical Nonatonic 2"	112030456067
+0	"untitled Nonatonic 1"		112304455600
+0	"untitled Nonatonic 2"		120234450670
+0	"untitled Nonatonic 3"		110234450660
+0	"untitled Nonatonic 4"		120374550770
+0	"Youlan 1"			112034450670
+0	"Youlan 2"			122044550770
+-2
+
+
+
+-1
+2	"10 Note Scales"
+0	"Untitled Decatonic 1"		102334056677
+0	"Untitled Decatonic 2"		102334450677
+0	"Untitled Decatonic 3"		120344556078
+0	"Untitled Decatonic 3"		120344506778
+0	"Untitled Decatonic 4"		122304556078
+0	"Untitled Decatonic 5"		122304556670
+0	"Untitled Decatonic 6"		112034450677
+0	"Untitled Decatonic 7"		112034455607
+0	"Untitled Decatonic 8"		112230455607
+0	"Untitled Decatonic 9"		122334056670
+0	"Chromatic DecaMirror 1"	122334556600
+0	"Chromatic DecaMirror 2"	112234455600
+0	"Major & Minor mixed"		102234055667
+0	"Minor Pentatonic Decatonic"	102234450667
+0	"Pan Diminished Blues"		122330450677
+0	"Pan Lydian"			102334455607
+0	"Symmetrical Decatonic"		112034455067
+-2
+
+-1
+2	"Indian Raga" 
+0	"Raga Ongkari 1"	100000550000
+0	"Raga Ongkari 2 "	100000450000
+0	"Raga Sarvarsi"		100004050000
+
+0	"Raga Haripriya"	102004005000
+0	"Raga Lavangi"		120004006000
+0	"Raga Manaranjani"	120030050070
+0	"Raga Nigamagamini"	100030400007
+0	"Raga Sumukam"		102000400007
+
+0	"Raga Abhogi"		102304000600
+0	"Raga Audva Tukhari"	102304006000
+0	"Raga Bhinna Pancama"	102004056007
+0	"Raga Bhinna Shadja"	100034000607
+0	"Raga Bhupeshwari"	102030056000
+0	"Raga Chandrakauns 1"	100304000670
+0	"Raga Chandrakauns 2"	100204005007
+0	"Raga Chandrakauns 3"	100204000607
+0	"Raga Chhaya Todi"	120300506000
+0	"Raga Chitthakarshini"	120304006000
+0	"Raga Desh"		102004050007
+0	"Raga Deshgaur"		120000056007
+0	"Raga Devaranjani 1"	100004056008
+0	"Raga Devaranjani 2"	100004056007
+0	"Raga Devaranjani 3"	100004055007
+0	"Raga Dhavalashri "	100030450600
+0	"Raga Gauri"		120004050007
+0	"Raga Hamsadhvani"	102030050007
+0	"Raga Harikauns 1"	100300506070
+0	"Raga Harikauns 2"	100200405060
+0	"Raga Hindol"		100030400607
+0	"Raga Jayakauns"	100304500070
+0	"Raga Khamaji Durga"	100034000670
+0	"Raga Kokil Pancham"	100304056000
+0	"Raga Kshanika"		120004006008
+0	"Raga Kumarapriya"	112000005007
+0	"Raga Kumurdaki"	102030400007
+0	"Raga Malashri 1"	100030450007
+0	"Raga Malashri 2"	100040550008
+0	"Raga Malkauns 1"	100204005060
+0	"Raga Malkauns 2"	100204005070
+0	"Raga Malkauns 3"	100304005070
+0	"Raga Malkauns 4"	100304005060
+0	"Raga Malkauns 5"	100204006070
+0	"Raga Malkauns 6"	100304006060
+0	"Raga Mamata"		100030050607
+0	"Raga Mand"		100034050600
+0	"Raga Matha Kokila"	102000050670
+0	"Raga Megharanjani"	120034006000
+0	"Raga Megharanji"	120034000007
+0	"Raga Mohanangi 1"	100330050600
+0	"Raga Mohanangi 2"	100230050600
+0	"Raga Multani 1"	100200450007
+0	"Raga Multani 2"	100300450007
+0	"Raga Multani 3"	100300550007
+0	"Raga Nabhomani"	112000450000
+0	"Raga Nata"		100304050007
+0	"Raga Priyadharshini"	102004005007
+0	"Raga Puruhutika"	100004050607
+0	"Raga Putrika"		112000005600
+0	"Raga Rasranjani"	102004000607
+0	"Raga Reva"		120030056000
+-2
+
+
+2	"Indian Raga"
+0	"Raga Rukmangi"		120300050070
+0	"Raga Samudhra Priya 1"	100300550070
+0	"Raga Samudhra Priya 2"	100300450070
+0	"Raga Saugandhini"	120000556000
+0	"Raga Shailaja"		100300056070
+0	"Raga Shri Kalyan"	102000450600
+0	"Raga Shubravarni"	102000400607
+0	"Raga Vaijayanti"	102000450007
+0	"Raga Valaji"		100030050670
+0	"Raga Zilaf"		100034056000
+
+0	"Raga Amarasenapriya"	102200450007
+0	"Raga Bagesri"		102304000670
+0	"Raga Bauli"		120030056007
+0	"Raga Bhanumanjari"	100334050070
+0	"Raga Bhavani"		120300506070
+0	"Raga Caturangini"	102030450007
+0	"Raga Chandrajyoti"	112000450600
+0	"Raga Dhavalangam"	120030556000
+0	"Raga Dipak"		102034450000
+0	"Raga Gandharavam"	120304050070
+0	"Raga Gaula"		120034050007
+0	"Raga Ghantana"		102304006007
+0	"Raga Gujari Todi"	120300506008
+0	"Raga Hamsa Vinodini"	102034000607
+0	"Raga Hamsanandi"	110030400607
+0	"Raga Hejjajji"		110030405600
+0	"Raga Indupriya"	110030450060
+0	"Raga Jaganmohanam"	102000455060
+0	"Raga Jivantika"	120004050607
+0	"Raga Jivantini 1"	100200450067
+0	"Raga Jivantini 2"	100000550007
+0	"Raga Jyoti"		100030456070
+0	"Raga Kalagada"		120030056070
+0	"Raga Kalakanthi"	120004056600
+0	"Raga Kalavati"		120034050600
+0	"Raga Kamalamanohari"	100034056070
+0	"Raga Kashyapi"		120300056070
+0	"Raga Kashyapi"		110200055060
+0	"Raga Khamas"		100034050670
+0	"Raga Latika"		102030056007
+0	"Raga Madhakauns1"	100300550670
+0	"Raga Madhakauns 2"	100200450660
+0	"Raga Malahari 1"	120034056000
+0	"Raga Malarani 2"	102000450067
+0	"Raga Malayamarutam"	120030050670
+0	"Raga Manavi"		102300050670
+0	"Raga Mandari"		110030450007
+0	"Raga Manohari"		100304050670
+0	"Raga Megh"		102004050077
+0	"Raga Mrunganandana"	102030400607
+0	"Raga Nagagandhari"	102004050607
+0	"Raga Nalinakanti"	102034050007
+0	"Raga Navamanohari"	102004056070
+0	"Raga Neelangi"		102200405600
+0	"Raga Nishadi"		102000450607
+0	"Raga Padi"		120004056007
+0	"Raga Paraju Simhavahin"100034056007
+0	"Raga Phenadyuti"	120004056070
+0	"Raga Rageshri"		102034000670
+-2
+
+2	"Indian Raga"
+0	"Raga Ranjani 1"	102300400607
+0	"Raga Ranjani 2"	102200400607
+0	"Raga Ranjani 3"	102300500607
+0	"Raga Rasamanjari"	100230450007
+0	"Raga Rasavali"		120004050670
+0	"Raga Rudra Pancama"	120034000670
+0	"Raga Salagavarali"	120300050670
+0	"Raga Sarasanana"	102034005007
+0	"Raga Sarasvati"	102000450670
+0	"Raga Sarasvati"	102000450660
+0	"Raga Saravati (#5)"	100034055600
+0	"Raga Saravati (b6)"	100034056600
+0	"Raga Simantini"	120304056000
+0	"Raga Simharava"	102200450060
+0	"Raga Sindhura Kafi"	102304050007
+0	"Raga Siva Kambhoji"	102034050070
+0	"Raga Sohini"		120034006007
+0	"Raga Suddha Bangala"	102304050600
+0	"Raga Suddha Mukhari"	112004005600
+0	"Raga Syamalam"		102000556000
+0	"Raga Takka"		100304056007
+0	"Raga Tilang, Savitri"	100034050077
+0	"Raga Trimurti"		102300056070
+0	"Raga Vasanta"		120034000607
+0	"Raga Vasantabhairavi"	120034005070
+0	"Raga Vijayanagari 1"	102300450600
+0	"Raga Vijayanagari 2"	102200450600
+0	"Raga Vijayasri"	112000450007
+0	"Raga Vijayavasanta"	100030450067
+0	"Raga Viyogavarali"	120304005007
+0	"Raga Vutari 1"		100030450660
+0	"Raga Vutari 2"		100030550670
+0	"Raga Vutari 3"		100030450670
+0	"Raga Yamuna Kalyani"	102030450600
+
+0	"Raga Bhatiyar"		120034550607
+0	"Raga Madhuri 1"	100034050667
+0	"Raga Madhuri 2"	100034050677
+0	"Raga Nandkauns"	100334050670
+0	"Raga Ragesri"		102034000677
+0	"Raga Sorati 1"		102004050677
+0	"Raga Sorati 2"		102004050667
+
+0	"Raga Cintamani"	102300556670
+0	"Raga Mian Ki Malhar 1"	102304050677
+0	"Raga Mian Ki Malhar 2"	102304050667
+0	"Raga Ramkali"		120034556007
+0	"Raga Saurashtra"	120034056607
+
+0	"Raga Pahadi"		102034055667
+0	"Raga Ramdasi Malhar"	102034050677
+
+0	"Raga Sindi Bhairavi"	112234055067
+-2
+
+-1
+2	"Indian Mela"
+0	"Mela Senavati"	        120304056600
+0	"Mela Yagapriya"	100234055600
+
+0	"Mela Bhavapriya"	120300556070
+0	"Mela Citrambari"	102030450067
+0	"Mela Dhatuvardhani"	100230455007
+0	"Mela Dhavalambari"	110030455600
+0	"Mela Divamani"		110200450067
+0	"Mela Ganamurti"	112004055007
+0	"Mela Ganamurti"	122004056007
+0	"Mela Gangeyabhusani"	100234055007
+0	"Mela Gavambohdi"	110200455600
+0	"Mela Hatakambari"	110034050067
+0	"Mela Jalarnava"	112000455060
+0	"Mela Jhalavarali"	112000455007
+0	"Mela Jhankaradhvani"	102304056600
+0	"Mela Jhotisvarupini"	100230455060
+0	"Mela Kantamani"	102030455600
+0	"Mela Latangi"		102030455007
+0	"Mela Latangi (b6)"	102030456007
+0	"Mela Manavati"		112004050607
+0	"Mela Nagananadini"	102034050077
+0	"Mela Namanararayani"	120030556070
+0	"Mela Navanitam"	112000450660
+0	"Mela Nitimati"		102200450067
+0	"Mela Pavani"		112000450607
+0	"Mela Ragavardhani"	100234055060
+0	"Mela Raghupriya"	112000450067
+0	"Mela Rasikapriya"	100230450067
+0	"Mela Ratnangi"		122004056070
+0	"Mela Rupavati"		110204050067
+0	"Mela Salaga"		112000455600
+0	"Mela Sucaritra"	100230455600
+0	"Mela Syamalangi"	102300556600
+0	"Mela Syamalangi"	102200455600
+0	"Mela Tanarupi"		112004050077
+0	"Mela Vanaspati"	122004050670
+0	"Mela Varunapriya"	102204050067
+0	"Mela Visvambhari"	110030450067
+
+0	"Mela Tanarupi"		112004050067
+-2
+
+-1
+2	"Messiaen 345"
+0	"Messiaen 3-1 "	100030005000		
+0	"Messiaen 4-1"	100300500700
+0	"Messiaen 4-2"	100004400007
+0	"Messiaen 4-3"	120000450000
+0	"Messiaen 4-4"	100200400060
+0	"Messiaen 4-5"	100200500060
+0	"Messiaen 4-6"	100300400070
+0	"Messiaen 4-7"	100300500070
+0	"Messiaen 4-8"	100200500070
+0	"Messiaen 4-9"	110000450000
+0	"Messiaen 4-10"	120000550000
+0	"Messiaen 4-11"	102000405000
+0	"Messiaen 4-12"	100030400070
+0	"Messiaen 4-13"	100030400060
+0	"Messiaen 4-14"	100030500070
+0	"Messiaen 4-15"	100004500007		
+0	"Messiaen 5-1"	122000556000
+0	"Messiaen 5-2"	100304400607
+0	"Messiaen 5-3"	102004405007
+0	"Messiaen 5-4"	102004506008
+0	"Messiaen 5-5"	110004450007
+0	"Messiaen 5-6"	120004450007
+0	"Messiaen 5-7"	112000456000
+0	"Messiaen 5-8"	112000455000
+0	"Messiaen 5-9"	100034400067
+0	"Messiaen 5-10"	100034400077
+0	"Messiaen 5-11"	100034500077
+0	"Messiaen 5-12"	100034500067
+0	"Messiaen 5-13"	110034005600
+0	"Messiaen 5-14"	110200450600
+0	"Messiaen 5-15"	120300450600
+0	"Messiaen 5-16"	120034005600
+-2
+
+2	"Messiaen 678"		
+0	"Messiaen 6-1"	102304405067
+0	"Messiaen 6-2"	102304406607
+0	"Messiaen 6-3"	120304450607
+0	"Messiaen 6-4"	112004456007
+0	"Messiaen 6-5"	120304550607
+0	"Messiaen 6-6"	102034405077
+0	"Messiaen 6-7"	102034405067
+0	"Messiaen 6-8"	120330450670
+0	"Messiaen 6-9"	122004456007
+0	"Messiaen 6-10"	112300455600
+0	"Messiaen 6-11"	122300556600
+0	"Messiaen 6-12"	112200455600
+0	"Messiaen 6-13"	100334400677
+0	"Messiaen 6-14"	100234500667
+0	"Messiaen 6-15"	112004455007
+0	"Messiaen 6-16"	112030455060
+0	"Messiaen 6-17"	112030456070
+0	"Messiaen 6-18"	102034050667
+0	"Messiaen 6-19"	102034505067		
+0	"Messiaen 7-1"	122034506670
+0	"Messiaen 7-2"	102330455067
+0	"Messiaen 7-3"	112034405670
+0	"Messiaen 7-4"	112034505670
+0	"Messiaen 7-5"	102230455067
+0	"Messiaen 7-6"	102330456077
+0	"Messiaen 7-7"	102330556077
+0	"Messiaen 7-8"	102330455077
+0	"Messiaen 7-9"	102230456067		
+0	"Messiaen 8-1"	112230455670
+0	"Messiaen 8-2"	122304456607
+0	"Messiaen 8-3"	112230455660
+0	"Messiaen 8-4"	122304556607
+0	"Messiaen 8-5"	102334506678
+0	"Messiaen 8-6"	102234405667
+0	"Messiaen 8-7"	102234505667
+-2
+
+
+-1
+2	"3 Note Theoretical"
+0	"Theoretical 3-1"	102000000600
+0	"Theoretical 3-2"	100000050070
+0	"Theoretical 3-3"	100304000000
+0	"Theoretical 3-4"	100000050600
+0	"Theoretical 3-5"	102004000000
+0	"Theoretical 3-6"	102000050000
+0	"Theoretical 3-7"	102000000070
+0	"Theoretical 3-8"	100000006070
+0	"Theoretical 3-9"	100030000007
+0	"Theoretical 3-10"	100000056000
+0	"Theoretical 3-11"	120004000000
+0	"Theoretical 3-12"	100000000607
+0	"Theoretical 3-13"	120000000070
+0	"Theoretical 3-14"	102000000007
+0	"Theoretical 3-15"	100000000670
+0	"Theoretical 3-16"	100000050007
+0	"Theoretical 3-17"	100034000000
+0	"Theoretical 3-18"	120000006000
+0	"Theoretical 3-19"	100000400007
+0	"Theoretical 3-20"	100030400000
+0	"Theoretical 3-21"	102000006000
+0	"Theoretical 3-22"	100000400600
+0	"Theoretical 3-23"	100300000600
+0	"Theoretical 3-24"	102000400000
+0	"Theoretical 3-25"	100030000070
+0	"Theoretical 3-26"	100000506000
+0	"Theoretical 3-27"	100004000007
+0	"Theoretical 3-28"	120000500000
+0	"Theoretical 3-28"	110000400000
+0	"Theoretical 3-29"	110030000000
+0	"Theoretical 3-30"	100000006600
+0	"Theoretical 3-31"	110000000600
+0	"Theoretical 3-32"	100330000000
+0	"Theoretical 3-33"	100004000008
+0	"Theoretical 3-34"	120000000008
+0	"Theoretical 3-35"	100000000677
+0	"Theoretical 3-36"	110000050000
+0	"Theoretical 3-37"	100004400000
+0	"Theoretical 3-38"	100000005007
+0	"Theoretical 3-39"	100300000007
+0	"Theoretical 3-40"	102000005000
+0	"Theoretical 3-41"	100000006007
+0	"Theoretical 3-42"	100000400070
+0	"Theoretical 3-43"	102004006600
+-2
+
+-1
+2	"4 Note Theoretical"
+0	"Theoretical 4-1"	102000050600
+0	"Theoretical 4-2"	100304000070
+0	"Theoretical 4-3"	102030000600
+0	"Theoretical 4-4"	102000050070
+0	"Theoretical 4-5"	100304050000
+0	"Theoretical 4-6"	100004006070
+0	"Theoretical 4-7"	100304006000
+0	"Theoretical 4-8"	100030000607
+0	"Theoretical 4-9"	102300050000
+0	"Theoretical 4-10"	100004056000
+0	"Theoretical 4-11"	120004000070
+0	"Theoretical 4-12"	102030000007
+0	"Theoretical 4-13"	102000000670
+0	"Theoretical 4-14"	100000056070
+0	"Theoretical 4-15"	102000000607
+0	"Theoretical 4-16"	100000050670
+0	"Theoretical 4-17"	120300000070
+0	"Theoretical 4-18"	100034000600
+0	"Theoretical 4-19"	100300056000
+0	"Theoretical 4-20"	100000050607
+0	"Theoretical 4-21"	120000006070
+0	"Theoretical 4-22"	102000056000
+0	"Theoretical 4-23"	120004050000
+0	"Theoretical 4-24"	100004500070
+0	"Theoretical 4-25"	100000400607
+0	"Theoretical 4-26"	102300000600
+0	"Theoretical 4-27"	120000050070
+0	"Theoretical 4-28"	100304500000
+0	"Theoretical 4-29"	100030400600
+0	"Theoretical 4-30"	100300050600
+0	"Theoretical 4-31"	100030000670
+0	"Theoretical 4-32"	120300050000
+0	"Theoretical 4-33"	100004506000
+0	"Theoretical 4-34"	102030000070
+0	"Theoretical 4-35"	102000006070
+0	"Theoretical 4-36"	100000506070
+0	"Theoretical 4-37"	100000450007
+0	"Theoretical 4-38"	100034000007
+0	"Theoretical 4-39"	120000056000
+0	"Theoretical 4-40"	120004500000
+0	"Theoretical 4-41"	100030450000
+0	"Theoretical 4-42"	100004000607
+0	"Theoretical 4-43"	102300006000
+0	"Theoretical 4-44"	120000500070
+0	"Theoretical 4-45"	100000450600
+0	"Theoretical 4-46"	102004000007
+-2
+
+2	"4 Note Theoretical"
+0	"Theoretical 4-47"	100300000670
+0	"Theoretical 4-48"	120300500000
+0	"Theoretical 4-49"	102000450000
+0	"Theoretical 4-50"	100004050007
+0	"Theoretical 4-51"	100034000070
+0	"Theoretical 4-52"	120000506000
+0	"Theoretical 4-53"	110000400007
+0	"Theoretical 4-54"	122000050000
+0	"Theoretical 4-55"	100004550000
+0	"Theoretical 4-56"	100004000078
+0	"Theoretical 4-57"	110000000007
+0	"Theoretical 4-58"	110030400000
+0	"Theoretical 4-59"	102000000600
+0	"Theoretical 4-60"	110030000007
+0	"Theoretical 4-61"	122004000000
+0	"Theoretical 4-62"	110000400600
+0	"Theoretical 4-63"	100330000600
+0	"Theoretical 4-64"	100300550000
+0	"Theoretical 4-65"	102330000000
+0	"Theoretical 4-66"	122000000070
+0	"Theoretical 4-67"	110030000600
+0	"Theoretical 4-68"	100330050000
+0	"Theoretical 4-69"	100000006600
+0	"Theoretical 4-70"	112000400000
+0	"Theoretical 4-71"	100030000077
+0	"Theoretical 4-72"	100000556000
+0	"Theoretical 4-73"	120004000008
+0	"Theoretical 4-74"	112000000007
+0	"Theoretical 4-75"	120000000078
+0	"Theoretical 4-76"	112030000000
+0	"Theoretical 4-77"	102000000077
+0	"Theoretical 4-78"	100000006670
+0	"Theoretical 4-79"	120300000008
+0	"Theoretical 4-80"	112000000600
+0	"Theoretical 4-81"	100000050077
+0	"Theoretical 4-82"	100334000000
+0	"Theoretical 4-83"	120000006008
+0	"Theoretical 4-84"	110000050007
+0	"Theoretical 4-85"	100034400000
+0	"Theoretical 4-86"	122000006000
+0	"Theoretical 4-87"	100000500078
+0	"Theoretical 4-88"	110030050000
+0	"Theoretical 4-89"	100004400600
+0	"Theoretical 4-90"	100300006600
+0	"Theoretical 4-91"	100300500008
+0	"Theoretical 4-92"	110000050600
+0	"Theoretical 4-93"	102004400000
+-2
+
+2	"4 Note Theoretical"
+0	"Theoretical 4-94"	100330000070
+0	"Theoretical 4-95"	112000050000
+0	"Theoretical 4-96"	100004450000
+0	"Theoretical 4-97"	100004000077
+0	"Theoretical 4-98"	120000500008
+0	"Theoretical 4-99"	100000405007
+0	"Theoretical 4-100"	110030005000
+0	"Theoretical 4-101"	100030405000
+0	"Theoretical 4-102"	100030005007
+0	"Theoretical 4-103"	100030056000
+0	"Theoretical 4-104"	110000005600
+0	"Theoretical 4-105"	100330000007
+0	"Theoretical 4-106"	100000405600
+0	"Theoretical 4-107"	100300000607
+0	"Theoretical 4-108"	102300000007
+0	"Theoretical 4-109"	100030005600
+0	"Theoretical 4-110"	100300050007
+0	"Theoretical 4-111"	100034006000
+0	"Theoretical 4-112"	100304000007
+0	"Theoretical 4-113"	102000005007
+0	"Theoretical 4-114"	100000400670
+0	"Theoretical 4-115"	102030005000
+0	"Theoretical 4-116"	102000400070
+0	"Theoretical 4-117"	100030006070
+0	"Theoretical 4-118"	120000000670
+0	"Theoretical 4-119"	100000055007
+0	"Theoretical 4-120"	100030055000
+0	"Theoretical 4-121"	110004000600
+0	"Theoretical 4-122"	100330006000
+0	"Theoretical 4-123"	100000055600
+0	"Theoretical 4-124"	100300000077
+0	"Theoretical 4-125"	100030006007
+0	"Theoretical 4-126"	100000006607
+0	"Theoretical 4-127"	100230400000
+0	"Theoretical 4-127"	102000006007
+0	"Theoretical 4-128"	120034000000
+0	"Theoretical 4-130"	110200000600
+0	"Theoretical 4-131"	100004006007
+0	"Theoretical 4-132"	110030000070
+0	"Theoretical 4-133"	100000006077
+0	"Theoretical 4-132"	100300006007
+0	"Theoretical 4-134"	100030550000
+0	"Theoretical 4-135"	110000000067
+0	"Theoretical 4-136"	100000400067
+0	"Theoretical 4-137"	100330500000
+0	"Theoretical 4-138"	100000450060
+0	"Theoretical 4-139"	100300500007
+0	"Theoretical 4-140"	100004050008
+-2
+
+-1
+2	"5 Note Theoretical"
+0	"Theoretical 5-1"	102030000607
+0	"Theoretical 5-2"	100004056070
+0	"Theoretical 5-3"	120304000070
+0	"Theoretical 5-4"	102034000600
+0	"Theoretical 5-5"	102300050070
+0	"Theoretical 5-6"	120004006070
+0	"Theoretical 5-7"	102000050007
+0	"Theoretical 5-8"	100034050000
+0	"Theoretical 5-9"	100004000670
+0	"Theoretical 5-10"	120300006000
+0	"Theoretical 5-12"	102000050607
+0	"Theoretical 5-13"	100004050670
+0	"Theoretical 5-14"	102304000070
+0	"Theoretical 5-15"	120300006070
+0	"Theoretical 5-16"	102030000670
+0	"Theoretical 5-17"	102000056070
+0	"Theoretical 5-18"	120304050000
+0	"Theoretical 5-19"	100004506070
+0	"Theoretical 5-20"	100304506000
+0	"Theoretical 5-21"	100000450607
+0	"Theoretical 5-22"	102034000007
+0	"Theoretical 5-23"	102300000670
+0	"Theoretical 5-24"	120000056070
+0	"Theoretical 5-25"	100300050670
+0	"Theoretical 5-26"	120300500070
+0	"Theoretical 5-27"	120004506000
+0	"Theoretical 5-29"	102034000070
+0	"Theoretical 5-30"	102300006070
+0	"Theoretical 5-31"	120000506070
+0	"Theoretical 5-32"	110030400007
+0	"Theoretical 5-33"	102000056600
+0	"Theoretical 5-34"	122004050000
+0	"Theoretical 5-35"	100004550070
+0	"Theoretical 5-36"	100304000078
+0	"Theoretical 5-37"	110000400607
+0	"Theoretical 5-38"	102330000600
+0	"Theoretical 5-39"	110030400600
+0	"Theoretical 5-40"	110030000607
+0	"Theoretical 5-41"	102330050000
+0	"Theoretical 5-42"	100004056600
+0	"Theoretical 5-43"	122004000070
+0	"Theoretical 5-44"	100300006078
+0	"Theoretical 5-45"	112000400007
+0	"Theoretical 5-46"	100030000677
+0	"Theoretical 5-47"	122300050000
+0	"Theoretical 5-48"	100004556000
+0	"Theoretical 5-49"	120004000078
+0	"Theoretical 5-50"	112030400000
+0	"Theoretical 5-51"	102030000077
+0	"Theoretical 5-52"	102000006670
+0	"Theoretical 5-53"	100000556070
+0	"Theoretical 5-54"	120304000008
+-2
+
+2	"5 Note Theoretical"
+0	"Theoretical 5-55"	112030000007
+0	"Theoretical 5-56"	102000000677
+0	"Theoretical 5-57"	100000056670
+0	"Theoretical 5-58"	120300000078
+0	"Theoretical 5-59"	112000400600
+0	"Theoretical 5-60"	100030050077
+0	"Theoretical 5-61"	100334000600
+0	"Theoretical 5-62"	100300556000
+0	"Theoretical 5-63"	112000000607
+0	"Theoretical 5-64"	100000050677
+0	"Theoretical 5-65"	102334000000
+0	"Theoretical 5-66"	122300000070
+0	"Theoretical 5-67"	120000006078
+0	"Theoretical 5-68"	112030000600
+0	"Theoretical 5-69"	102000050077
+0	"Theoretical 5-70"	100334050000
+0	"Theoretical 5-71"	100004006670
+0	"Theoretical 5-72"	120300006008
+0	"Theoretical 5-73"	110000450007
+0	"Theoretical 5-74"	100034400007
+0	"Theoretical 5-75"	122000056000
+0	"Theoretical 5-76"	120004550000
+0	"Theoretical 5-77"	100004500078
+0	"Theoretical 5-78"	100004400607
+0	"Theoretical 5-79"	102300006600
+0	"Theoretical 5-80"	120000550070
+0	"Theoretical 5-81"	110030050007
+0	"Theoretical 5-82"	100034400600
+0	"Theoretical 5-83"	100300056600
+0	"Theoretical 5-84"	122004006000
+0	"Theoretical 5-85"	110000450600
+0	"Theoretical 5-86"	102004400007
+0	"Theoretical 5-87"	100330000670
+0	"Theoretical 5-88"	120300550000
+0	"Theoretical 5-89"	100004506008
+0	"Theoretical 5-90"	110000050607
+0	"Theoretical 5-91"	102034400000
+0	"Theoretical 5-92"	102330000070
+0	"Theoretical 5-93"	122000006070
+0	"Theoretical 5-94"	100000506078
+0	"Theoretical 5-95"	110030050600
+0	"Theoretical 5-96"	102004400600
+0	"Theoretical 5-97"	100330050070
+0	"Theoretical 5-98"	100304006600
+0	"Theoretical 5-99"	100300506008
+0	"Theoretical 5-100"	100004450007
+0	"Theoretical 5-101"	100034000077
+0	"Theoretical 5-102"	120004500008
+0	"Theoretical 5-103"	112000050007
+0	"Theoretical 5-104"	100034450000
+0	"Theoretical 5-105"	100004000677
+0	"Theoretical 5-106"	122300006000
+0	"Theoretical 5-107"	120000500077
+0	"Theoretical 5-108"	112030050000
+-2
+
+2	"5 Note Theoretical"
+0	"Theoretical 5-109"	100004450600
+0	"Theoretical 5-110"	102004000077
+0	"Theoretical 5-111"	100300006670
+0	"Theoretical 5-112"	120300500008
+0	"Theoretical 5-113"	112000050600
+0	"Theoretical 5-114"	102004450000
+0	"Theoretical 5-115"	100004050077
+0	"Theoretical 5-116"	100334000070
+0	"Theoretical 5-117"	120000506008
+0	"Theoretical 5-118"	110030405000
+0	"Theoretical 5-119"	102030006600
+0	"Theoretical 5-120"	110030005007
+0	"Theoretical 5-121"	122004000600
+0	"Theoretical 5-122"	100030405007
+0	"Theoretical 5-123"	100330000607
+0	"Theoretical 5-124"	110000005607
+0	"Theoretical 5-125"	102330000007
+0	"Theoretical 5-126"	112000000670
+0	"Theoretical 5-127"	100000405607
+0	"Theoretical 5-128"	102300000607
+0	"Theoretical 5-129"	102304500000
+0	"Theoretical 5-130"	120370000070
+0	"Theoretical 5-131"	110030005600
+0	"Theoretical 5-132"	100330050007
+0	"Theoretical 5-133"	100034006600
+0	"Theoretical 5-134"	100030405600
+0	"Theoretical 5-135"	100300050607
+0	"Theoretical 5-136"	102034006000
+0	"Theoretical 5-137"	100030005607
+0	"Theoretical 5-138"	102300050007
+0	"Theoretical 5-139"	120004000670
+0	"Theoretical 5-140"	120370006000
+0	"Theoretical 5-141"	112000405000
+0	"Theoretical 5-142"	112004000007
+0	"Theoretical 5-143"	100000400677
+0	"Theoretical 5-144"	122300000600
+0	"Theoretical 5-145"	102000405007
+0	"Theoretical 5-146"	100030400670
+0	"Theoretical 5-147"	102004506000
+0	"Theoretical 5-148"	112030005000
+0	"Theoretical 5-149"	102000400077
+0	"Theoretical 5-150"	102030405000
+0	"Theoretical 5-151"	102030400070
+0	"Theoretical 5-152"	102030006070
+0	"Theoretical 5-153"	102000506070
+0	"Theoretical 5-154"	102030005007
+0	"Theoretical 5-155"	102000400670
+0	"Theoretical 5-156"	100030056070
+0	"Theoretical 5-157"	100334000007
+0	"Theoretical 5-158"	102000405600
+0	"Theoretical 5-159"	100000050070
+0	"Theoretical 5-160"	102304000007
+0	"Theoretical 5-161"	120370500000
+0	"Theoretical 5-162"	102030005600
+-2
+
+2	"5 Note Theoretical"
+0	"Theoretical 5-163"	102000450070
+0	"Theoretical 5-164"	100034006070
+0	"Theoretical 5-165"	100000455600
+0	"Theoretical 5-166"	110034400000
+0	"Theoretical 5-167"	100000455007
+0	"Theoretical 5-168"	120000056600
+0	"Theoretical 5-169"	110004400600
+0	"Theoretical 5-170"	100330006600
+0	"Theoretical 5-171"	100030455000
+0	"Theoretical 5-172"	110004000607
+0	"Theoretical 5-173"	102330006000
+0	"Theoretical 5-174"	100030055007
+0	"Theoretical 5-175"	100330056000
+0	"Theoretical 5-176"	120004006600
+0	"Theoretical 5-177"	100330000077
+0	"Theoretical 5-178"	100300000607
+0	"Theoretical 5-179"	100000055607
+0	"Theoretical 5-180"	112034000000
+0	"Theoretical 5-181"	102300000077
+0	"Theoretical 5-182"	120340000008
+0	"Theoretical 5-183"	100030055600
+0	"Theoretical 5-184"	100300050077
+0	"Theoretical 5-185"	102000455000
+0	"Theoretical 5-186"	100034400070
+0	"Theoretical 5-187"	100004400670
+0	"Theoretical 5-188"	120300050008
+0	"Theoretical 5-189"	102004400070
+0	"Theoretical 5-190"	100330006070
+0	"Theoretical 5-191"	102000000607
+0	"Theoretical 5-192"	120034000600
+0	"Theoretical 5-193"	100230400007
+0	"Theoretical 5-194"	102000056007
+0	"Theoretical 5-195"	120034050000
+0	"Theoretical 5-196"	110200005600
+0	"Theoretical 5-197"	100300400607
+0	"Theoretical 5-198"	100300550600
+0	"Theoretical 5-199"	110200000607
+0	"Theoretical 5-200"	102330400000
+0	"Theoretical 5-201"	122030000070
+0	"Theoretical 5-202"	100330450000
+0	"Theoretical 5-203"	100000006607
+0	"Theoretical 5-204"	120034000070
+0	"Theoretical 5-205"	102200405000
+0	"Theoretical 5-206"	110030000077
+0	"Theoretical 5-207"	102200400007
+0	"Theoretical 5-208"	110030000670
+0	"Theoretical 5-209"	120330050000
+0	"Theoretical 5-210"	100004506600
+0	"Theoretical 5-211"	112000400070
+0	"Theoretical 5-212"	100030006077
+0	"Theoretical 5-213"	100000006677
+0	"Theoretical 5-214"	102230400000
+-2
+
+2	"5 Note Theoretical"
+0	"Theoretical 5-215"	102000006077
+0	"Theoretical 5-216"	100030056007
+0	"Theoretical 5-217"	100334400000
+0	"Theoretical 5-218"	102200400600
+0	"Theoretical 5-219"	100304400600
+0	"Theoretical 5-220"	100300506600
+0	"Theoretical 5-221"	112000050070
+0	"Theoretical 5-222"	100304450000
+0	"Theoretical 5-223"	100000006077
+0	"Theoretical 5-224"	110004405000
+0	"Theoretical 5-225"	100330006007
+0	"Theoretical 5-226"	100300006607
+0	"Theoretical 5-227"	120340000000
+0	"Theoretical 5-228"	102300006007
+0	"Theoretical 5-229"	100300056007
+0	"Theoretical 5-230"	110200050600
+0	"Theoretical 5-231"	102004405000
+0	"Theoretical 5-232"	100034405000
+0	"Theoretical 5-233"	100300400670
+0	"Theoretical 5-234"	120300500600
+0	"Theoretical 5-235"	100004455000
+0	"Theoretical 5-236"	102200450000
+0	"Theoretical 5-237"	120000506600
+0	"Theoretical 5-238"	110030005060
+0	"Theoretical 5-239"	100030405060
+0	"Theoretical 5-240"	102030500070
+0	"Theoretical 5-241"	100030005067
+0	"Theoretical 5-242"	100030400067
+0	"Theoretical 5-243"	110000005660
+0	"Theoretical 5-244"	110200000660
+0	"Theoretical 5-245"	100000405660
+0	"Theoretical 5-246"	102330500000
+0	"Theoretical 5-247"	100330500600
+0	"Theoretical 5-248"	110000400660
+0	"Theoretical 5-249"	112300000007
+0	"Theoretical 5-250"	110000000667
+0	"Theoretical 5-251"	112300000600
+0	"Theoretical 5-252"	100030005660
+0	"Theoretical 5-253"	100330500070
+0	"Theoretical 5-254"	102200400060
+0	"Theoretical 5-255"	112000000067
+0	"Theoretical 5-256"	100030055070
+0	"Theoretical 5-257"	100330506000
+0	"Theoretical 5-258"	100000450067
+0	"Theoretical 5-259"	100000055067
+0	"Theoretical 5-260"	110000050067
+0	"Theoretical 5-261"	120034500000
+0	"Theoretical 5-262"	110204000600
+0	"Theoretical 5-263"	100000450660
+0	"Theoretical 5-264"	120030500070
+0	"Theoretical 5-265"	110000050660
+0	"Theoretical 5-266"	120330500000
+0	"Theoretical 5-267"	102200050060
+-2
+
+
+-1
+2	"6 Note Theoretical"
+0	"Theoretical 6-1"	102030050670
+0	"Theoretical 6-2"	100304506070
+0	"Theoretical 6-3"	100030450607
+0	"Theoretical 6-4"	102304056000
+0	"Theoretical 6-5"	120004506070
+0	"Theoretical 6-6"	120304506000
+0	"Theoretical 6-7"	102304006070
+0	"Theoretical 6-8"	102004056600
+0	"Theoretical 6-9"	122004050000
+0	"Theoretical 6-10"	100304006078
+0	"Theoretical 6-11"	112030400007
+0	"Theoretical 6-12"	102030000677
+0	"Theoretical 6-13"	102000056670
+0	"Theoretical 6-14"	122304050000
+0	"Theoretical 6-15"	100004556070
+0	"Theoretical 6-16"	120304000078
+0	"Theoretical 6-17"	112000400607
+0	"Theoretical 6-18"	100030050677
+0	"Theoretical 6-19"	102334000600
+0	"Theoretical 6-20"	122300050070
+0	"Theoretical 6-21"	100304556000
+0	"Theoretical 6-22"	120004006078
+0	"Theoretical 6-23"	112030400600
+0	"Theoretical 6-24"	102030050077
+0	"Theoretical 6-25"	100334050600
+0	"Theoretical 6-26"	102004006670
+0	"Theoretical 6-27"	100300556070
+0	"Theoretical 6-28"	120304006008
+0	"Theoretical 6-29"	112030000607
+0	"Theoretical 6-30"	102000050677
+0	"Theoretical 6-31"	102334050000
+0	"Theoretical 6-32"	100004056670
+0	"Theoretical 6-33"	122304000070
+0	"Theoretical 6-34"	120300006078
+0	"Theoretical 6-35"	100034400607
+0	"Theoretical 6-36"	102300056600
+0	"Theoretical 6-37"	122004056000
+0	"Theoretical 6-38"	120004550070
+0	"Theoretical 6-39"	100304500078
+0	"Theoretical 6-40"	110000450607
+0	"Theoretical 6-41"	102034400007
+0	"Theoretical 6-42"	102330000670
+0	"Theoretical 6-43"	122000056070
+0	"Theoretical 6-44"	120304550000
+0	"Theoretical 6-45"	100004506007
+0	"Theoretical 6-46"	110030450600
+0	"Theoretical 6-47"	102004400607
+0	"Theoretical 6-48"	100330050670
+0	"Theoretical 6-49"	102304006600
+0	"Theoretical 6-50"	120300550070
+0	"Theoretical 6-51"	100304506008
+0	"Theoretical 6-52"	110030050607
+0	"Theoretical 6-53"	102034400600
+0	"Theoretical 6-54"	102330050070
+0	"Theoretical 6-55"	100304056600
+0	"Theoretical 6-56"	122004006070
+0	"Theoretical 6-57"	100300506078
+0	"Theoretical 6-58"	100034450007
+0	"Theoretical 6-59"	100034000677
+0	"Theoretical 6-60"	122300056000
+-2
+
+2	"6 Note Theoretical"
+0	"Theoretical 6-61"	120004500078
+0	"Theoretical 6-62"	112030450000
+0	"Theoretical 6-63"	100004450607
+0	"Theoretical 6-64"	102034000077
+0	"Theoretical 6-65"	102300006670
+0	"Theoretical 6-66"	120000556070
+0	"Theoretical 6-67"	120300500008
+0	"Theoretical 6-68"	112030050007
+0	"Theoretical 6-69"	100034450600
+0	"Theoretical 6-70"	102004000677
+0	"Theoretical 6-71"	100300056670
+0	"Theoretical 6-72"	122304006000
+0	"Theoretical 6-73"	120300500078
+0	"Theoretical 6-74"	102004450007
+0	"Theoretical 6-75"	100334000670
+0	"Theoretical 6-76"	120300556000
+0	"Theoretical 6-77"	120004506008
+0	"Theoretical 6-78"	112000050607
+0	"Theoretical 6-69"	100004050677
+0	"Theoretical 6-70"	102334000070
+0	"Theoretical 6-71"	122300006070
+0	"Theoretical 6-72"	120000506078
+0	"Theoretical 6-73"	112030050600
+0	"Theoretical 6-74"	102004450600
+0	"Theoretical 6-75"	100304006670
+0	"Theoretical 6-76"	110030405007
+0	"Theoretical 6-77"	102330000607
+0	"Theoretical 6-78"	102304550000
+0	"Theoretical 6-79"	120344000000
+0	"Theoretical 6-80"	110030005607
+0	"Theoretical 6-81"	102330050007
+0	"Theoretical 6-82"	120344006000
+0	"Theoretical 6-83"	100030405607
+0	"Theoretical 6-84"	102304500070
+0	"Theoretical 6-85"	120340006070
+0	"Theoretical 6-86"	120004050077
+0	"Theoretical 6-87"	112000405007
+0	"Theoretical 6-88"	100030400677
+0	"Theoretical 6-89"	122300050600
+0	"Theoretical 6-89"	102004956000
+0	"Theoretical 6-90"	112030405000
+0	"Theoretical 6-91"	102030400077
+0	"Theoretical 6-92"	102030006670
+0	"Theoretical 6-93"	120304050008
+0	"Theoretical 6-94"	112030005007
+0	"Theoretical 6-95"	102000400677
+0	"Theoretical 6-96"	122304000600
+0	"Theoretical 6-97"	120300050078
+0	"Theoretical 6-98"	102030056070
+0	"Theoretical 6-99"	102004506070
+0	"Theoretical 6-100"	120004056078
+0	"Theoretical 6-101"	112000405600
+0	"Theoretical 6-102"	100334000607
+0	"Theoretical 6-103"	112000005607
+0	"Theoretical 6-104"	102334000007
+0	"Theoretical 6-105"	120344500000
+0	"Theoretical 6-106"	102000405607
+0	"Theoretical 6-107"	102304506000
+0	"Theoretical 6-108"	120340500070
+0	"Theoretical 6-109"	100334050007
+0	"Theoretical 6-110"	100034006670
+0	"Theoretical 6-111"	120300056008
+0	"Theoretical 6-112"	102030450070
+0	"Theoretical 6-113"	100304050607
+0	"Theoretical 6-114"	102034006070
+0	"Theoretical 6-115"	102030005607
+0	"Theoretical 6-116"	120340506000
+0	"Theoretical 6-117"	122000056600
+0	"Theoretical 6-118"	110004455000
+0	"Theoretical 6-119"	110004400607
+0	"Theoretical 6-120"	102330006600
+-2
+
+2	"6 Note Theoretical"
+0	"Theoretical 6-121"	120034500600
+0	"Theoretical 6-122"	100330056600
+0	"Theoretical 6-123"	100030455007
+0	"Theoretical 6-124"	102330056000
+0	"Theoretical 6-125"	112004400007
+0	"Theoretical 6-126"	100330000677
+0	"Theoretical 6-127"	112034400000
+0	"Theoretical 6-128"	102330000077
+0	"Theoretical 6-129"	120344000008
+0	"Theoretical 6-130"	100000455607
+0	"Theoretical 6-131"	112034000007
+0	"Theoretical 6-132"	102300000677
+0	"Theoretical 6-133"	120000056670
+0	"Theoretical 6-134"	122304500000
+0	"Theoretical 6-135"	120340000078
+0	"Theoretical 6-136"	110030055600
+0	"Theoretical 6-137"	112004400600
+0	"Theoretical 6-138"	100330050077
+0	"Theoretical 6-139"	100030455600
+0	"Theoretical 6-140"	100300050677
+0	"Theoretical 6-141"	102334006000
+0	"Theoretical 6-142"	100030055607
+0	"Theoretical 6-143"	112034000600
+0	"Theoretical 6-144"	102300050077
+0	"Theoretical 6-145"	120004006670
+0	"Theoretical 6-146"	120340006008
+0	"Theoretical 6-147"	110034450000
+0	"Theoretical 6-148"	100004400677
+0	"Theoretical 6-149"	122300006600
+0	"Theoretical 6-150"	120000550078
+0	"Theoretical 6-151"	102000455007
+0	"Theoretical 6-152"	100034400670
+0	"Theoretical 6-153"	120300056600
+0	"Theoretical 6-154"	112030055000
+0	"Theoretical 6-155"	110004450600
+0	"Theoretical 6-156"	102004400077
+0	"Theoretical 6-157"	100330006670
+0	"Theoretical 6-158"	102030455000
+0	"Theoretical 6-159"	102034400070
+0	"Theoretical 6-160"	102330006070
+0	"Theoretical 6-161"	102004400670
+0	"Theoretical 6-162"	100330056070
+0	"Theoretical 6-163"	112004450000
+0	"Theoretical 6-164"	100004450077
+0	"Theoretical 6-165"	100334000077
+0	"Theoretical 6-166"	120000556000
+0	"Theoretical 6-167"	102000455600
+0	"Theoretical 6-168"	112004050007
+0	"Theoretical 6-169"	100034450070
+0	"Theoretical 6-170"	100304000677
+0	"Theoretical 6-171"	112034050000
+0	"Theoretical 6-172"	100004450670
+0	"Theoretical 6-173"	102304000077
+0	"Theoretical 6-174"	120340500008
+0	"Theoretical 6-175"	112004050600
+0	"Theoretical 6-176"	102004450070
+0	"Theoretical 6-177"	100304050077
+0	"Theoretical 6-178"	112030005600
+0	"Theoretical 6-179"	102000056607
+0	"Theoretical 6-180"	110200405600
+-2
+
+2	"6 Note Theoretical"
+0	"Theoretical 6-181"	110200005607
+0	"Theoretical 6-182"	102330400007
+0	"Theoretical 6-183"	120344050000
+0	"Theoretical 6-184"	102330400600
+0	"Theoretical 6-185"	100034006607
+0	"Theoretical 6-186"	102004006607
+0	"Theoretical 6-187"	102330450000
+0	"Theoretical 6-188"	100004056607
+0	"Theoretical 6-189"	112200405000
+0	"Theoretical 6-190"	122000000078
+0	"Theoretical 6-191"	112200400007
+0	"Theoretical 6-192"	110030000677
+0	"Theoretical 6-193"	112230005000
+0	"Theoretical 6-194"	112000400077
+0	"Theoretical 6-195"	122300050008
+0	"Theoretical 6-196"	112000000077
+0	"Theoretical 6-197"	112030400070
+0	"Theoretical 6-198"	112030000077
+0	"Theoretical 6-199"	102000000677
+0	"Theoretical 6-200"	112000400670
+0	"Theoretical 6-201"	120334000600
+0	"Theoretical 6-202"	112230000007
+0	"Theoretical 6-203"	112030000670
+0	"Theoretical 6-204"	102000056077
+0	"Theoretical 6-205"	100334400007
+0	"Theoretical 6-206"	112200400600
+0	"Theoretical 6-207"	100334400600
+0	"Theoretical 6-208"	100300556600
+0	"Theoretical 6-209"	122004006008
+0	"Theoretical 6-210"	102304400007
+0	"Theoretical 6-211"	120340550000
+0	"Theoretical 6-212"	102334400000
+0	"Theoretical 6-213"	120330050070
+0	"Theoretical 6-214"	112000450070
+0	"Theoretical 6-215"	100034006077
+0	"Theoretical 6-216"	112230000600
+0	"Theoretical 6-217"	112000050077
+0	"Theoretical 6-218"	100334450000
+0	"Theoretical 6-219"	100004006677
+0	"Theoretical 6-220"	122300006008
+0	"Theoretical 6-221"	112030050070
+0	"Theoretical 6-222"	100304450600
+0	"Theoretical 6-223"	102004006077
+0	"Theoretical 6-224"	100300506670
+0	"Theoretical 6-225"	112000050670
+0	"Theoretical 6-226"	100004056077
+0	"Theoretical 6-227"	120034506000
+0	"Theoretical 6-228"	100034405007
+0	"Theoretical 6-229"	100330006607
+0	"Theoretical 6-230"	100230455000
+0	"Theoretical 6-231"	102330006007
+0	"Theoretical 6-232"	110200450007
+0	"Theoretical 6-233"	120340000770
+0	"Theoretical 6-234"	100004405607
+0	"Theoretical 6-235"	102300006607
+0	"Theoretical 6-236"	120000550670
+0	"Theoretical 6-237"	100034405600
+0	"Theoretical 6-238"	100300056607
+0	"Theoretical 6-239"	120370006700
+0	"Theoretical 6-240"	102300056007
+-2
+
+2	"6 Note Theoretical"
+0	"Theoretical 6-241"	112004405000
+0	"Theoretical 6-242"	112004005007
+0	"Theoretical 6-243"	100300400677
+0	"Theoretical 6-244"	112034005000
+0	"Theoretical 6-245"	112034000070
+0	"Theoretical 6-246"	110200050607
+0	"Theoretical 6-247"	102034405000
+0	"Theoretical 6-248"	102004405600
+0	"Theoretical 6-249"	100304006707
+0	"Theoretical 6-250"	120340500700
+0	"Theoretical 6-251"	120300500670
+0	"Theoretical 6-252"	102034005600
+0	"Theoretical 6-253"	120034006070
+0	"Theoretical 6-254"	120034500070
+0	"Theoretical 6-255"	120000556600
+0	"Theoretical 6-256"	112200450000
+0	"Theoretical 6-257"	100004455007
+0	"Theoretical 6-257"	110004400670
+0	"Theoretical 6-259"	100034455000
+0	"Theoretical 6-260"	120330056000
+0	"Theoretical 6-261"	120004506600
+0	"Theoretical 6-262"	112004400070
+0	"Theoretical 6-263"	100330006077
+0	"Theoretical 6-264"	100300506077
+0	"Theoretical 6-265"	112230050000
+0	"Theoretical 6-266"	112004000077
+0	"Theoretical 6-267"	100300006677
+0	"Theoretical 6-268"	102230450000
+0	"Theoretical 6-269"	120340000708
+0	"Theoretical 6-270"	102300006077
+0	"Theoretical 6-271"	120000506670
+0	"Theoretical 6-272"	100300056077
+0	"Theoretical 6-273"	112230050007
+0	"Theoretical 6-274"	112004000670
+0	"Theoretical 6-257"	100334400070
+0	"Theoretical 6-276"	110034050060
+0	"Theoretical 6-277"	100304400670
+0	"Theoretical 6-278"	102034055000
+0	"Theoretical 6-279"	100200405067
+0	"Theoretical 6-280"	110030405060
+0	"Theoretical 6-281"	122004000607
+0	"Theoretical 6-282"	110030005067
+0	"Theoretical 6-283"	100030405067
+0	"Theoretical 6-284"	102330550000
+0	"Theoretical 6-285"	110200005660
+0	"Theoretical 6-286"	100330550600
+0	"Theoretical 6-287"	110000005667
+0	"Theoretical 6-288"	110200000667
+0	"Theoretical 6-289"	122000000677
+0	"Theoretical 6-290"	100000405667
+0	"Theoretical 6-291"	112300000607
+0	"Theoretical 6-292"	110030005660
+0	"Theoretical 6-293"	100030405660
+0	"Theoretical 6-294"	102330500070
+0	"Theoretical 6-295"	100330500670
+0	"Theoretical 6-296"	100330550070
+0	"Theoretical 6-297"	100030005667
+0	"Theoretical 6-298"	120004000677
+0	"Theoretical 6-299"	120034000077
+0	"Theoretical 6-300"	112000405060
+-2
+
+2	"6 Note Theoretical"
+0	"Theoretical 6-301"	112200400060
+0	"Theoretical 6-302"	102000405067
+0	"Theoretical 6-303"	102200400067
+0	"Theoretical 6-304"	102000406077
+0	"Theoretical 6-305"	120330050007
+0	"Theoretical 6-306"	122300050007
+0	"Theoretical 6-307"	112030005060
+0	"Theoretical 6-308"	112230000060
+0	"Theoretical 6-309"	102030005067
+0	"Theoretical 6-310"	110000400677
+0	"Theoretical 6-311"	112000005600
+0	"Theoretical 6-312"	102000405660
+0	"Theoretical 6-313"	102330506000
+0	"Theoretical 6-314"	102200400660
+0	"Theoretical 6-315"	100330506600
+0	"Theoretical 6-316"	100030055077
+0	"Theoretical 6-317"	122340500000
+0	"Theoretical 6-318"	100034406070
+0	"Theoretical 6-319"	100004406670
+0	"Theoretical 6-320"	100330506070
+0	"Theoretical 6-321"	110234400000
+0	"Theoretical 6-322"	120000056607
+0	"Theoretical 6-323"	100234005007
+0	"Theoretical 6-324"	100000455067
+0	"Theoretical 6-325"	122000056007
+0	"Theoretical 6-326"	110204005600
+0	"Theoretical 6-327"	110204000607
+0	"Theoretical 6-328"	100230450060
+0	"Theoretical 6-329"	110234000600
+0	"Theoretical 6-330"	120004006607
+0	"Theoretical 6-331"	100234005600
+0	"Theoretical 6-332"	110030050067
+0	"Theoretical 6-333"	122004006007
+0	"Theoretical 6-334"	100234005607
+0	"Theoretical 6-335"	100000455660
+0	"Theoretical 6-336"	112204000007
+0	"Theoretical 6-337"	100000055667
+0	"Theoretical 6-338"	112300000077
+0	"Theoretical 6-339"	110000050667
+0	"Theoretical 6-340"	100000450667
+0	"Theoretical 6-341"	112300000670
+0	"Theoretical 6-342"	120000056077
+0	"Theoretical 6-343"	100030055660
+0	"Theoretical 6-344"	100334406000
+0	"Theoretical 6-345"	100304406600
+0	"Theoretical 6-346"	100234055000
+0	"Theoretical 6-347"	122300006007
+0	"Theoretical 6-348"	110204050600
+0	"Theoretical 6-349"	120300500608
+0	"Theoretical 6-350"	120000506608
+0	"Theoretical 6-351"	100330500607
+0	"Theoretical 6-352"	100300550607
+0	"Theoretical 6-353"	102000506077
+0	"Theoretical 6-354"	100330506007
+0	"Theoretical 6-355"	100300506607
+0	"Theoretical 6-356"	100300556007
+0	"Theoretical 6-357"	100234005060
+0	"Theoretical 6-358"	110204000660
+0	"Theoretical 6-359"	120030500077
+0	"Theoretical 6-360"	100330500078
+0	"Theoretical 6-361"	120034500008
+-2
+
+-1
+2	"7 Note Theoretical"
+0	"Theoretical 7-1"	112030400607
+0	"Theoretical 7-2"	102030050677
+0	"Theoretical 7-3"	102334050600
+0	"Theoretical 7-4"	102004056670
+0	"Theoretical 7-5"	122304050070
+0	"Theoretical 7-6"	100304556070
+0	"Theoretical 7-7"	120304006078
+0	"Theoretical 7-8"	102034400607
+0	"Theoretical 7-9"	100304506078
+0	"Theoretical 7-10"	112030450007
+0	"Theoretical 7-11"	100034450607
+0	"Theoretical 7-12"	102300056670
+0	"Theoretical 7-13"	122304056000
+0	"Theoretical 7-14"	120004556070
+0	"Theoretical 7-15"	120304500078
+0	"Theoretical 7-16"	102034450007
+0	"Theoretical 7-17"	102334000670
+0	"Theoretical 7-18"	122300056070
+0	"Theoretical 7-19"	120304556000
+0	"Theoretical 7-20"	120004506078
+0	"Theoretical 7-21"	112030450600
+0	"Theoretical 7-22"	102004450607
+0	"Theoretical 7-23"	102304006670
+0	"Theoretical 7-24"	120304506008
+0	"Theoretical 7-25"	112030050607
+0	"Theoretical 7-26"	102034450600
+0	"Theoretical 7-27"	102334050070
+0	"Theoretical 7-28"	100304056670
+0	"Theoretical 7-29"	122304006070
+0	"Theoretical 7-30"	110030405607
+0	"Theoretical 7-31"	102330050607
+0	"Theoretical 7-32"	120344006070
+0	"Theoretical 7-33"	112030405007
+0	"Theoretical 7-34"	102030400677
+0	"Theoretical 7-35"	102030056670
+0	"Theoretical 7-36"	122304050600
+0	"Theoretical 7-37"	102004556070
+0	"Theoretical 7-38"	112000405607
+0	"Theoretical 7-39"	102334000607
+0	"Theoretical 7-40"	122300050670
+0	"Theoretical 7-41"	120344500070
+0	"Theoretical 7-42"	102034006670
+0	"Theoretical 7-43"	112030005607
+0	"Theoretical 7-44"	102000450677
+0	"Theoretical 7-45"	102334050007
+0	"Theoretical 7-46"	100034056670
+0	"Theoretical 7-47"	120300056078
+0	"Theoretical 7-48"	120344506000
+0	"Theoretical 7-49"	110004455007
+0	"Theoretical 7-50"	112034400007
+0	"Theoretical 7-51"	102330000677
+0	"Theoretical 7-52"	122000056670
+0	"Theoretical 7-53"	122304550000
+0	"Theoretical 7-54"	120344000078
+-2
+
+2	"7 Note Theoretical"
+0	"Theoretical 7-55"	112004400607
+0	"Theoretical 7-56"	100330050677
+0	"Theoretical 7-57"	102334006600
+0	"Theoretical 7-58"	122300550070
+0	"Theoretical 7-59"	110030055607
+0	"Theoretical 7-60"	112034400600
+0	"Theoretical 7-61"	102330050077
+0	"Theoretical 7-62"	122004006670
+0	"Theoretical 7-63"	120344006008
+0	"Theoretical 7-64"	100030455607
+0	"Theoretical 7-65"	112034000607
+0	"Theoretical 7-66"	102300050677
+0	"Theoretical 7-67"	102334056000
+0	"Theoretical 7-68"	120004056670
+0	"Theoretical 7-69"	122304500070
+0	"Theoretical 7-70"	120340006078
+0	"Theoretical 7-71"	110034450007
+0	"Theoretical 7-72"	100034400677
+0	"Theoretical 7-73"	122300056600
+0	"Theoretical 7-74"	120004550078
+0	"Theoretical 7-75"	112030455000
+0	"Theoretical 7-76"	110004450607
+0	"Theoretical 7-77"	102034400077
+0	"Theoretical 7-78"	102330006670
+0	"Theoretical 7-79"	120304550008
+0	"Theoretical 7-80"	112030055007
+0	"Theoretical 7-81"	110034450600
+0	"Theoretical 7-82"	102004400677
+0	"Theoretical 7-83"	100330056670
+0	"Theoretical 7-84"	122304006600
+0	"Theoretical 7-85"	112004450007
+0	"Theoretical 7-86"	100034450077
+0	"Theoretical 7-87"	100334000677
+0	"Theoretical 7-88"	122300556000
+0	"Theoretical 7-89"	112034450000
+0	"Theoretical 7-90"	100004450677
+0	"Theoretical 7-91"	102334000077
+0	"Theoretical 7-92"	122300006670
+0	"Theoretical 7-93"	120000556078
+0	"Theoretical 7-94"	120344500008
+0	"Theoretical 7-95"	102000455607
+0	"Theoretical 7-96"	100034450670
+0	"Theoretical 7-97"	120300056670
+0	"Theoretical 7-98"	122304506000
+0	"Theoretical 7-99"	120340500078
+0	"Theoretical 7-100"	102034450070
+0	"Theoretical 7-101"	100304050677
+0	"Theoretical 7-102"	102334006070
+0	"Theoretical 7-103"	102030055607
+0	"Theoretical 7-104"	112034050600
+0	"Theoretical 7-105"	102004450670
+0	"Theoretical 7-106"	120340506008
+0	"Theoretical 7-107"	110034005607
+0	"Theoretical 7-108"	112200450600
+-2
+
+2	"7 Note Theoretical"
+0	"Theoretical 7-109"	122034050070
+0	"Theoretical 7-110"	110200405607
+0	"Theoretical 7-111"	102330400607
+0	"Theoretical 7-112"	120374050070
+0	"Theoretical 7-113"	102300050670
+0	"Theoretical 7-114"	102330450007
+0	"Theoretical 7-115"	100034056607
+0	"Theoretical 7-116"	120334056000
+0	"Theoretical 7-117"	102330450600
+0	"Theoretical 7-118"	102004056607
+0	"Theoretical 7-119"	112200405007
+0	"Theoretical 7-120"	110030400677
+0	"Theoretical 7-121"	102004556600
+0	"Theoretical 7-122"	112030400077
+0	"Theoretical 7-123"	102030006677
+0	"Theoretical 7-124"	122304050001
+0	"Theoretical 7-125"	102234405000
+0	"Theoretical 7-126"	112230005007
+0	"Theoretical 7-127"	112000400677
+0	"Theoretical 7-128"	112030400670
+0	"Theoretical 7-129"	102030056077
+0	"Theoretical 7-130"	102004506670
+0	"Theoretical 7-131"	112030000677
+0	"Theoretical 7-132"	102000056677
+0	"Theoretical 7-133"	122304000078
+0	"Theoretical 7-134"	112200405600
+0	"Theoretical 7-135"	100334400607
+0	"Theoretical 7-136"	110000450677
+0	"Theoretical 7-137"	102334400007
+0	"Theoretical 7-138"	120344550000
+0	"Theoretical 7-139"	102200405607
+0	"Theoretical 7-140"	120330050670
+0	"Theoretical 7-141"	120340550070
+0	"Theoretical 7-142"	112200400607
+0	"Theoretical 7-143"	102334400600
+0	"Theoretical 7-144"	100304556600
+0	"Theoretical 7-145"	112230005600
+0	"Theoretical 7-146"	100334450007
+0	"Theoretical 7-147"	100034006677
+0	"Theoretical 7-148"	122300056008
+0	"Theoretical 7-149"	100304450607
+0	"Theoretical 7-150"	102034006077
+0	"Theoretical 7-151"	112230400600
+0	"Theoretical 7-152"	112030050077
+0	"Theoretical 7-153"	100334450600
+0	"Theoretical 7-154"	102004006677
+0	"Theoretical 7-155"	100300556670
+0	"Theoretical 7-156"	122304006008
+0	"Theoretical 7-157"	102304450007
+0	"Theoretical 7-158"	100034056077
+0	"Theoretical 7-159"	120340556000
+0	"Theoretical 7-160"	112230000607
+0	"Theoretical 7-161"	112000050677
+0	"Theoretical 7-162"	102334450000
+-2
+
+2	"7 Note Theoretical"
+0	"Theoretical 7-163"	100004056677
+0	"Theoretical 7-164"	122300006078
+0	"Theoretical 7-165"	112030050670
+0	"Theoretical 7-166"	102304450600
+0	"Theoretical 7-167"	102004056077
+0	"Theoretical 7-168"	120344000770
+0	"Theoretical 7-169"	102330006607
+0	"Theoretical 7-170"	110034405600
+0	"Theoretical 7-171"	100330056607
+0	"Theoretical 7-172"	120344006600
+0	"Theoretical 7-173"	102330056007
+0	"Theoretical 7-174"	120340006670
+0	"Theoretical 7-175"	100034405607
+0	"Theoretical 7-176"	102300056607
+0	"Theoretical 7-177"	102304500078
+0	"Theoretical 7-178"	112004405007
+0	"Theoretical 7-179"	102004556001
+0	"Theoretical 7-180"	112034405000
+0	"Theoretical 7-181"	102330400077
+0	"Theoretical 7-182"	120344050008
+0	"Theoretical 7-183"	112034005007
+0	"Theoretical 7-184"	112034000077
+0	"Theoretical 7-185"	122304500600
+0	"Theoretical 7-186"	110200450607
+0	"Theoretical 7-187"	102034405007
+0	"Theoretical 7-188"	102004506078
+0	"Theoretical 7-189"	112004405600
+0	"Theoretical 7-190"	120344500000
+0	"Theoretical 7-191"	112004005607
+0	"Theoretical 7-192"	102334006007
+0	"Theoretical 7-193"	122300000670
+0	"Theoretical 7-194"	120340500070
+0	"Theoretical 7-195"	112034005600
+0	"Theoretical 7-196"	102034405600
+0	"Theoretical 7-197"	102330450070
+0	"Theoretical 7-198"	100304056607
+0	"Theoretical 7-199"	120034500078
+0	"Theoretical 7-201"	110034455000
+0	"Theoretical 7-202"	110004400677
+0	"Theoretical 7-203"	120340056600
+0	"Theoretical 7-204"	112200450007
+0	"Theoretical 7-205"	112230055000
+0	"Theoretical 7-206"	110004455600
+0	"Theoretical 7-207"	112004400077
+0	"Theoretical 7-208"	100330006677
+0	"Theoretical 7-209"	120344000708
+0	"Theoretical 7-210"	112034400070
+0	"Theoretical 7-211"	102330006077
+0	"Theoretical 7-212"	122304500008
+0	"Theoretical 7-213"	120340000778
+0	"Theoretical 7-214"	100004455607
+0	"Theoretical 7-215"	102300006677
+0	"Theoretical 7-216"	120000556670
+-2
+
+2	"7 Note Theoretical"
+0	"Theoretical 7-217"	112004400670
+0	"Theoretical 7-218"	100330056077
+0	"Theoretical 7-219"	100034455600
+0	"Theoretical 7-220"	100300056677
+0	"Theoretical 7-221"	120340006708
+0	"Theoretical 7-222"	112034000670
+0	"Theoretical 7-223"	102300056077
+0	"Theoretical 7-224"	112004455000
+0	"Theoretical 7-225"	100334400077
+0	"Theoretical 7-226"	110034450070
+0	"Theoretical 7-227"	100304400677
+0	"Theoretical 7-228"	100334400670
+0	"Theoretical 7-229"	112034055000
+0	"Theoretical 7-230"	110004450670
+0	"Theoretical 7-231"	120340550008
+0	"Theoretical 7-232"	102034450000
+0	"Theoretical 7-233"	102334400070
+0	"Theoretical 7-234"	102304000677
+0	"Theoretical 7-235"	112230050600
+0	"Theoretical 7-236"	100334450070
+0	"Theoretical 7-237"	100304006677
+0	"Theoretical 7-238"	120340500708
+0	"Theoretical 7-239"	102304006077
+0	"Theoretical 7-240"	100304056077
+0	"Theoretical 7-241"	110200405660
+0	"Theoretical 7-242"	110200005667
+0	"Theoretical 7-243"	110030405660
+0	"Theoretical 7-244"	102330500670
+0	"Theoretical 7-245"	110030005667
+0	"Theoretical 7-246"	122004000677
+0	"Theoretical 7-247"	100034456007
+0	"Theoretical 7-248"	120034000677
+0	"Theoretical 7-249"	120004050677
+0	"Theoretical 7-250"	100030405667
+0	"Theoretical 7-251"	112000405067
+0	"Theoretical 7-252"	122300050607
+0	"Theoretical 7-253"	102200405067
+0	"Theoretical 7-254"	120330050607
+0	"Theoretical 7-255"	112200400067
+0	"Theoretical 7-256"	112030405060
+0	"Theoretical 7-257"	112230005060
+0	"Theoretical 7-258"	112000000667
+0	"Theoretical 7-259"	112230000067
+0	"Theoretical 7-260"	102000456670
+0	"Theoretical 7-261"	122304050007
+0	"Theoretical 7-262"	112000405660
+0	"Theoretical 7-263"	122044550000
+0	"Theoretical 7-264"	102200405660
+0	"Theoretical 7-265"	112204000660
+0	"Theoretical 7-266"	122340550000
+0	"Theoretical 7-267"	102000405667
+0	"Theoretical 7-268"	122340500070
+0	"Theoretical 7-269"	102200400667
+0	"Theoretical 7-270"	120330050077
+-2
+
+2	"7 Note Theoretical"
+0	"Theoretical 7-271"	122300050077
+0	"Theoretical 7-272"	112030005660
+0	"Theoretical 7-273"	100034406670
+0	"Theoretical 7-274"	100034406077
+0	"Theoretical 7-275"	112230000660
+0	"Theoretical 7-276"	102030405660
+0	"Theoretical 7-277"	102330506070
+0	"Theoretical 7-278"	102004406077
+0	"Theoretical 7-279"	100330506670
+0	"Theoretical 7-280"	100030055667
+0	"Theoretical 7-281"	122340506000
+0	"Theoretical 7-282"	122000056607
+0	"Theoretical 7-283"	102330406600
+0	"Theoretical 7-284"	120344050000
+0	"Theoretical 7-285"	110204005607
+0	"Theoretical 7-286"	102330506007
+0	"Theoretical 7-287"	102304500608
+0	"Theoretical 7-288"	100030455067
+0	"Theoretical 7-289"	102330456000
+0	"Theoretical 7-290"	120004056607
+0	"Theoretical 7-291"	112234005000
+0	"Theoretical 7-292"	112034005060
+0	"Theoretical 7-293"	100000455667
+0	"Theoretical 7-294"	112234000007
+0	"Theoretical 7-295"	112300000677
+0	"Theoretical 7-296"	120000056677
+0	"Theoretical 7-297"	100200450667
+0	"Theoretical 7-298"	120030056077
+0	"Theoretical 7-299"	122000056077
+0	"Theoretical 7-300"	110030055660
+0	"Theoretical 7-301"	100334406600
+0	"Theoretical 7-302"	100334406007
+0	"Theoretical 7-303"	102204405600
+0	"Theoretical 7-304"	100304406607
+0	"Theoretical 7-305"	100030455660
+0	"Theoretical 7-306"	112204000607
+0	"Theoretical 7-307"	122040006078
+0	"Theoretical 7-308"	120340550000
+0	"Theoretical 7-309"	102304006607
+0	"Theoretical 7-310"	112234000600
+0	"Theoretical 7-311"	100334456000
+0	"Theoretical 7-312"	120004006677
+0	"Theoretical 7-313"	110030050667
+0	"Theoretical 7-314"	100030450667
+0	"Theoretical 7-315"	102304456000
+0	"Theoretical 7-316"	122300006607
+0	"Theoretical 7-317"	120000550678
+0	"Theoretical 7-318"	102000455067
+0	"Theoretical 7-319"	120300056607
+0	"Theoretical 7-320"	120330056007
+0	"Theoretical 7-321"	122300056007
+0	"Theoretical 7-322"	112030055060
+0	"Theoretical 7-323"	112004405070
+0	"Theoretical 7-324"	112230050060
+-2
+
+2	"7 Note Theoretical"
+0	"Theoretical 7-325"	122304006007
+0	"Theoretical 7-326"	120300500678
+0	"Theoretical 7-327"	122040506700
+0	"Theoretical 7-328"	120034506070
+0	"Theoretical 7-329"	120000556608
+0	"Theoretical 7-340"	100034455070
+0	"Theoretical 7-341"	120004506608
+0	"Theoretical 7-342"	122340550008
+0	"Theoretical 7-343"	112234050000
+0	"Theoretical 7-344"	122370500008
+0	"Theoretical 7-345"	122300006077
+0	"Theoretical 7-346"	112234050007
+0	"Theoretical 7-347"	102030055660
+0	"Theoretical 7-348"	100304406077
+0	"Theoretical 7-349"	100304406670
+0	"Theoretical 7-350"	120000506678
+0	"Theoretical 7-351"	122340506008
+0	"Theoretical 7-352"	110034005660
+0	"Theoretical 7-353"	100330500677
+0	"Theoretical 7-354"	112200405070
+0	"Theoretical 7-355"	112200400670
+0	"Theoretical 7-356"	100304556007
+0	"Theoretical 7-357"	100300556607
+0	"Theoretical 7-358"	112200450070
+0	"Theoretical 7-359"	100330506077
+0	"Theoretical 7-360"	100300506677
+0	"Theoretical 7-361"	100300556077
+0	"Theoretical 7-362"	110204005660
+0	"Theoretical 7-363"	110204000667
+0	"Theoretical 7-364"	100004405667
+0	"Theoretical 7-365"	112300456000
+0	"Theoretical 7-366"	112004005067
+0	"Theoretical 7-367"	112204000067
+0	"Theoretical 7-368"	112234000060
+0	"Theoretical 7-369"	120304500607
+0	"Theoretical 7-370"	112004005660
+0	"Theoretical 7-371"	122340500700
+0	"Theoretical 7-372"	100004455067
+0	"Theoretical 7-373"	100004455660
+0	"Theoretical 7-374"	110304055070
+0	"Theoretical 7-375"	110200050667
+-2
+
+-1
+2	"8 Note Theoretical"
+0	"Theoretical 8-1"	112030450607
+0	"Theoretical 8-2"	112034050007
+0	"Theoretical 8-3"	112030405607
+0	"Theoretical 8-4"	102334050607
+0	"Theoretical 8-5"	102034056670
+0	"Theoretical 8-6"	120304056078
+0	"Theoretical 8-7"	110030455607
+0	"Theoretical 8-8"	112034400607
+0	"Theoretical 8-9"	102330050677
+0	"Theoretical 8-10"	102334056600
+0	"Theoretical 8-11"	112004055670
+0	"Theoretical 8-12"	122304550070
+0	"Theoretical 8-13"	120344006078
+0	"Theoretical 8-14"	112030455007
+0	"Theoretical 8-15"	102034400677
+0	"Theoretical 8-16"	102230055670
+0	"Theoretical 8-17"	122304056600
+0	"Theoretical 8-18"	120304550078
+0	"Theoretical 8-19"	112000455607
+0	"Theoretical 8-20"	112034450007
+0	"Theoretical 8-21"	100034450677
+0	"Theoretical 8-22"	102334000607
+0	"Theoretical 8-23"	122300056670
+0	"Theoretical 8-24"	122304556000
+0	"Theoretical 8-25"	120004556078
+0	"Theoretical 8-26"	120344500078
+0	"Theoretical 8-27"	112030455600
+0	"Theoretical 8-28"	112004450607
+0	"Theoretical 8-29"	102034450077
+0	"Theoretical 8-30"	102334006670
+0	"Theoretical 8-31"	122300556070
+0	"Theoretical 8-32"	112030055607
+0	"Theoretical 8-33"	102004450677
+0	"Theoretical 8-34"	102334050077
+0	"Theoretical 8-35"	122304006670
+0	"Theoretical 8-36"	120344506008
+0	"Theoretical 8-37"	102030455607
+0	"Theoretical 8-38"	112034050607
+0	"Theoretical 8-39"	102034450670
+0	"Theoretical 8-40"	102334056070
+0	"Theoretical 8-41"	120304056600
+0	"Theoretical 8-42"	122304506070
+0	"Theoretical 8-43"	120340506078
+0	"Theoretical 8-44"	112030400677
+0	"Theoretical 8-45"	102004956670
+0	"Theoretical 8-46"	122304050078
+0	"Theoretical 8-47"	102234405007
+0	"Theoretical 8-48"	112200405607
+0	"Theoretical 8-49"	102334400607
+0	"Theoretical 8-50"	102304556600
+0	"Theoretical 8-51"	122004056078
+0	"Theoretical 8-52"	120344550070
+0	"Theoretical 8-53"	112230405600
+0	"Theoretical 8-54"	112030450077
+0	"Theoretical 8-55"	100334450607
+0	"Theoretical 8-56"	112230005607
+0	"Theoretical 8-57"	112000450677
+0	"Theoretical 8-58"	102334450007
+0	"Theoretical 8-59"	100034056677
+0	"Theoretical 8-60"	122300056078
+-2
+
+2	"8 Note Theoretical"
+0	"Theoretical 8-61"	120344556000
+0	"Theoretical 8-62"	120304500708
+0	"Theoretical 8-63"	112030450670
+0	"Theoretical 8-64"	102304450607
+0	"Theoretical 8-65"	102034056077
+0	"Theoretical 8-66"	120340556070
+0	"Theoretical 8-67"	112030050677
+0	"Theoretical 8-68"	102334450600
+0	"Theoretical 8-69"	102004056677
+0	"Theoretical 8-70"	100304556670
+0	"Theoretical 8-71"	122304006078
+0	"Theoretical 8-72"	120344006770
+0	"Theoretical 8-73"	110034405607
+0	"Theoretical 8-74"	102230055607
+0	"Theoretical 8-75"	110200455607
+0	"Theoretical 8-76"	112034405007
+0	"Theoretical 8-77"	102330500677
+0	"Theoretical 8-78"	122304550600
+0	"Theoretical 8-79"	102004956078
+0	"Theoretical 8-80"	120374050078
+0	"Theoretical 8-81"	120304550600
+0	"Theoretical 8-82"	112004405607
+0	"Theoretical 8-83"	100330450677
+0	"Theoretical 8-84"	102334006607
+0	"Theoretical 8-85"	112034405600
+0	"Theoretical 8-86"	102330450077
+0	"Theoretical 8-87"	120334056008
+0	"Theoretical 8-88"	100230455607
+0	"Theoretical 8-89"	120344506700
+0	"Theoretical 8-90"	112034005607
+0	"Theoretical 8-91"	102300450677
+0	"Theoretical 8-92"	102334056007
+0	"Theoretical 8-93"	122304500670
+0	"Theoretical 8-94"	120340056077
+0	"Theoretical 8-95"	120340506770
+0	"Theoretical 8-96"	102034405607
+0	"Theoretical 8-97"	120304550670
+0	"Theoretical 8-98"	120344000778
+0	"Theoretical 8-99"	110004455607
+0	"Theoretical 8-100"	112034400077
+0	"Theoretical 8-101"	102330006677
+0	"Theoretical 8-102"	122304550008
+0	"Theoretical 8-103"	112230055007
+0	"Theoretical 8-104"	110034455000
+0	"Theoretical 8-105"	112004400677
+0	"Theoretical 8-106"	100330056677
+0	"Theoretical 8-107"	120344006708
+0	"Theoretical 8-108"	112034400670
+0	"Theoretical 8-109"	102230056077
+0	"Theoretical 8-111"	120034056670
+0	"Theoretical 8-112"	120340006778
+0	"Theoretical 8-113"	100034455607
+0	"Theoretical 8-114"	112034000677
+0	"Theoretical 8-115"	102300056677
+0	"Theoretical 8-116"	122304500078
+0	"Theoretical 8-117"	110034450077
+0	"Theoretical 8-118"	112034455000
+0	"Theoretical 8-119"	110004450677
+0	"Theoretical 8-120"	102334400077
+-2
+
+2	"8 Note Theoretical"
+0	"Theoretical 8-121"	120344550008
+0	"Theoretical 8-122"	112034055007
+0	"Theoretical 8-123"	110034450670
+0	"Theoretical 8-124"	120340056670
+0	"Theoretical 8-125"	122304506700
+0	"Theoretical 8-126"	120340550078
+0	"Theoretical 8-127"	112200450607
+0	"Theoretical 8-128"	102334400670
+0	"Theoretical 8-129"	120304556600
+0	"Theoretical 8-130"	112230055600
+0	"Theoretical 8-131"	112004455600
+0	"Theoretical 8-132"	112004450077
+0	"Theoretical 8-133"	100334450077
+0	"Theoretical 8-134"	102200455607
+0	"Theoretical 8-135"	120344500708
+0	"Theoretical 8-136"	112004055607
+0	"Theoretical 8-137"	100304450677
+0	"Theoretical 8-138"	102334006077
+0	"Theoretical 8-139"	120340500078
+0	"Theoretical 8-140"	100334450670
+0	"Theoretical 8-141"	102304006677
+0	"Theoretical 8-142"	122304506008
+0	"Theoretical 8-143"	112034055600
+0	"Theoretical 8-144"	102304450077
+0	"Theoretical 8-145"	120340556008
+0	"Theoretical 8-146"	112230050607
+0	"Theoretical 8-147"	102034455600
+0	"Theoretical 8-148"	102334450070
+0	"Theoretical 8-149"	100304056677
+0	"Theoretical 8-150"	112034050670
+0	"Theoretical 8-151"	120304500670
+0	"Theoretical 8-152"	112034050077
+0	"Theoretical 8-153"	122304050607
+0	"Theoretical 8-154"	110030405667
+0	"Theoretical 8-155"	122004050677
+0	"Theoretical 8-156"	110200405667
+0	"Theoretical 8-157"	120034050677
+0	"Theoretical 8-158"	102304500677
+0	"Theoretical 8-159"	112030405067
+0	"Theoretical 8-160"	120304050678
+0	"Theoretical 8-161"	112230005067
+0	"Theoretical 8-162"	112000405667
+0	"Theoretical 8-163"	122300050677
+0	"Theoretical 8-164"	102334556000
+0	"Theoretical 8-165"	100230455660
+0	"Theoretical 8-166"	102200405667
+0	"Theoretical 8-167"	120330050677
+0	"Theoretical 8-168"	122340550070
+0	"Theoretical 8-169"	112200400667
+0	"Theoretical 8-170"	112030405660
+0	"Theoretical 8-171"	112230005660
+0	"Theoretical 8-172"	102330506670
+0	"Theoretical 8-173"	112230400660
+0	"Theoretical 8-174"	112030005667
+0	"Theoretical 8-17"	122340556000
+0	"Theoretical 8-176"	112230000667
+0	"Theoretical 8-177"	102030405667
+0	"Theoretical 8-178"	102030455660
+0	"Theoretical 8-179"	102034456070
+0	"Theoretical 8-180"	122340506070
+-2
+
+2	"8 Note Theoretical"
+0	"Theoretical 8-181"	122304050077
+0	"Theoretical 8-182"	122034550070
+0	"Theoretical 8-183"	102330456600
+0	"Theoretical 8-184"	122034550600
+0	"Theoretical 8-185"	102330506607
+0	"Theoretical 8-186"	100230455067
+0	"Theoretical 8-187"	120344056700
+0	"Theoretical 8-188"	102330456007
+0	"Theoretical 8-189"	112234400007
+0	"Theoretical 8-190"	122000056677
+0	"Theoretical 8-191"	110200455660
+0	"Theoretical 8-192"	102004956608
+0	"Theoretical 8-193"	112234405000
+0	"Theoretical 8-194"	120344050608
+0	"Theoretical 8-195"	112234005007
+0	"Theoretical 8-196"	112034005067
+0	"Theoretical 8-197"	110200450667
+0	"Theoretical 8-198"	102004506678
+0	"Theoretical 8-199"	110030455660
+0	"Theoretical 8-200"	100334406607
+0	"Theoretical 8-201"	120344550700
+0	"Theoretical 8-202"	110030055667
+0	"Theoretical 8-203"	112234400600
+0	"Theoretical 8-204"	100334456600
+0	"Theoretical 8-205"	122004006677
+0	"Theoretical 8-206"	112234005600
+0	"Theoretical 8-207"	100334456007
+0	"Theoretical 8-208"	102234405600
+0	"Theoretical 8-209"	100030455667
+0	"Theoretical 8-210"	112234000607
+0	"Theoretical 8-211"	120004056677
+0	"Theoretical 8-212"	120340556700
+0	"Theoretical 8-213"	102304456600
+0	"Theoretical 8-214"	112000455067
+0	"Theoretical 8-215"	100034405677
+0	"Theoretical 8-216"	122300056607
+0	"Theoretical 8-217"	110034405670
+0	"Theoretical 8-218"	120340056607
+0	"Theoretical 8-219"	112230055060
+0	"Theoretical 8-220"	112004405077
+0	"Theoretical 8-221"	102034556008
+0	"Theoretical 8-222"	112034405070
+0	"Theoretical 8-223"	102330506077
+0	"Theoretical 8-224"	122304500608
+0	"Theoretical 8-225"	112030055067
+0	"Theoretical 8-226"	122304006607
+0	"Theoretical 8-227"	120000556678
+0	"Theoretical 8-228"	112004405670
+0	"Theoretical 8-229"	112230050067
+0	"Theoretical 8-230"	102030455067
+0	"Theoretical 8-231"	102034405670
+0	"Theoretical 8-232"	102330456070
+0	"Theoretical 8-233"	120304056607
+0	"Theoretical 8-234"	100234055607
+0	"Theoretical 8-235"	112034005660
+0	"Theoretical 8-236"	112030450067
+0	"Theoretical 8-237"	102034005677
+0	"Theoretical 8-238"	112000455660
+0	"Theoretical 8-239"	100034455077
+0	"Theoretical 8-240"	110034455070
+-2
+
+2	"8 Note Theoretical"
+0	"Theoretical 8-241"	112200450660
+0	"Theoretical 8-242"	122300006677
+0	"Theoretical 8-243"	112234055000
+0	"Theoretical 8-244"	110004455670
+0	"Theoretical 8-245"	102234455000
+0	"Theoretical 8-246"	102000455667
+0	"Theoretical 8-247"	100034455670
+0	"Theoretical 8-248"	112204000667
+0	"Theoretical 8-249"	120300056677
+0	"Theoretical 8-250"	122340500078
+0	"Theoretical 8-251"	122300056077
+0	"Theoretical 8-252"	112030055660
+0	"Theoretical 8-253"	100334406670
+0	"Theoretical 8-254"	112004455070
+0	"Theoretical 8-255"	100334406077
+0	"Theoretical 8-256"	112230050660
+0	"Theoretical 8-257"	100304406677
+0	"Theoretical 8-258"	112034055070
+0	"Theoretical 8-259"	102304406670
+0	"Theoretical 8-260"	120304500608
+0	"Theoretical 8-261"	102030055667
+0	"Theoretical 8-262"	112234050600
+0	"Theoretical 8-263"	100334456070
+0	"Theoretical 8-264"	122304006077
+0	"Theoretical 8-265"	102304456070
+0	"Theoretical 8-266"	110004406677
+0	"Theoretical 8-267"	120030450677
+0	"Theoretical 8-268"	112200405077
+0	"Theoretical 8-269"	112200400677
+0	"Theoretical 8-270"	112200405670
+0	"Theoretical 8-271"	100304556607
+0	"Theoretical 8-272"	112200450067
+0	"Theoretical 8-273"	100330506677
+0	"Theoretical 8-274"	100300556677
+0	"Theoretical 8-275"	100304556077
+0	"Theoretical 8-276"	110204005667
+0	"Theoretical 8-277"	110034005667
+0	"Theoretical 8-278"	112234400060
+0	"Theoretical 8-279"	112234005060
+0	"Theoretical 8-280"	112234000067
+0	"Theoretical 8-281"	112004005667
+0	"Theoretical 8-282"	122340550700
+0	"Theoretical 8-283"	122340500770
+0	"Theoretical 8-284"	112234000660
+0	"Theoretical 8-285"	122340506700
+0	"Theoretical 8-286"	120304500677
+0	"Theoretical 8-287"	100234055067
+0	"Theoretical 8-288"	100234005677
+0	"Theoretical 8-289"	102234405070
+0	"Theoretical 8-290"	120030556077
+0	"Theoretical 8-291"	100004455667
+0	"Theoretical 8-292"	100234050667
+0	"Theoretical 8-293"	112300456070
+0	"Theoretical 8-294"	112234050060
+0	"Theoretical 8-295"	100234055670
+0	"Theoretical 8-296"	120304405607
+-2
+
+-1
+2	"9 Note Theoretical"
+0	"Theoretical 9-1"	112030455607
+0	"Theoretical 9-2"	112034450607
+0	"Theoretical 9-3"	122304556070
+0	"Theoretical 9-4"	120304556078
+0	"Theoretical 9-5"	120344506078
+0	"Theoretical 9-6"	112230405607
+0	"Theoretical 9-7"	112030450677
+0	"Theoretical 9-8"	102334450607
+0	"Theoretical 9-9"	122304056078
+0	"Theoretical 9-10"	120344556070
+0	"Theoretical 9-11"	112230400607
+0	"Theoretical 9-12"	120344506770
+0	"Theoretical 9-13"	112034505607
+0	"Theoretical 9-14"	102330450677
+0	"Theoretical 9-15"	102334056607
+0	"Theoretical 9-16"	122304550670
+0	"Theoretical 9-17"	120344006778
+0	"Theoretical 9-18"	110034455607
+0	"Theoretical 9-19"	112034400677
+0	"Theoretical 9-20"	102230055677
+0	"Theoretical 9-21"	122304550078
+0	"Theoretical 9-22"	112200455607
+0	"Theoretical 9-23"	112034455007
+0	"Theoretical 9-24"	110034450677
+0	"Theoretical 9-25"	102334400677
+0	"Theoretical 9-26"	120344550078
+0	"Theoretical 9-27"	120344500778
+0	"Theoretical 9-28"	112004455607
+0	"Theoretical 9-29"	100334450677
+0	"Theoretical 9-30"	102334006677
+0	"Theoretical 9-31"	122304556008
+0	"Theoretical 9-32"	112230055607
+0	"Theoretical 9-33"	112034455600
+0	"Theoretical 9-34"	112004450677
+0	"Theoretical 9-35"	102334450077
+0	"Theoretical 9-36"	120344556008
+0	"Theoretical 9-37"	112004450670
+0	"Theoretical 9-38"	120344506707
+0	"Theoretical 9-39"	102304450677
+0	"Theoretical 9-40"	102334056077
+0	"Theoretical 9-41"	122304506670
+0	"Theoretical 9-42"	120340556078
+0	"Theoretical 9-43"	120340506778
+0	"Theoretical 9-44"	102034455607
+0	"Theoretical 9-45"	120304556670
+0	"Theoretical 9-46"	122304506078
+0	"Theoretical 9-47"	112030405667
+0	"Theoretical 9-48"	102030455667
+0	"Theoretical 9-49"	102034456670
+0	"Theoretical 9-50"	102334556070
+0	"Theoretical 9-51"	102334556600
+-2
+
+2	"9 Note Theoretical"
+0	"Theoretical 9-52"	112230405660
+0	"Theoretical 9-53"	120304550778
+0	"Theoretical 9-54"	112230005667
+0	"Theoretical 9-55"	102034456077
+0	"Theoretical 9-56"	122340556070
+0	"Theoretical 9-57"	112230400667
+0	"Theoretical 9-58"	110030455667
+0	"Theoretical 9-59"	112234400607
+0	"Theoretical 9-60"	120334056770
+0	"Theoretical 9-61"	102330456607
+0	"Theoretical 9-62"	110200455667
+0	"Theoretical 9-63"	112234405007
+0	"Theoretical 9-64"	112234405600
+0	"Theoretical 9-65"	100334456607
+0	"Theoretical 9-66"	100230455667
+0	"Theoretical 9-67"	120344556700
+0	"Theoretical 9-68"	112234005607
+0	"Theoretical 9-69"	120340556770
+0	"Theoretical 9-70"	102234405607
+0	"Theoretical 9-71"	102304455607
+0	"Theoretical 9-72"	102034405677
+0	"Theoretical 9-73"	102330456670
+0	"Theoretical 9-74"	122304056607
+0	"Theoretical 9-75"	110034405677
+0	"Theoretical 9-76"	112034405077
+0	"Theoretical 9-78"	102330506677
+0	"Theoretical 9-79"	122304550608
+0	"Theoretical 9-80"	120334050071
+0	"Theoretical 9-81"	112230055067
+0	"Theoretical 9-82"	112004405677
+0	"Theoretical 9-83"	120034056677
+0	"Theoretical 9-84"	112034005677
+0	"Theoretical 9-85"	122304500678
+0	"Theoretical 9-86"	112000455667
+0	"Theoretical 9-87"	112234450007
+0	"Theoretical 9-88"	100034455677
+0	"Theoretical 9-89"	122300056677
+0	"Theoretical 9-90"	112200455660
+0	"Theoretical 9-91"	110034455077
+0	"Theoretical 9-92"	110004455677
+0	"Theoretical 9-93"	112234055007
+0	"Theoretical 9-94"	110034455670
+0	"Theoretical 9-95"	120340056677
+0	"Theoretical 9-96"	122340550078
+0	"Theoretical 9-97"	112200450667
+0	"Theoretical 9-98"	102234455007
+0	"Theoretical 9-99"	122304506608
+0	"Theoretical 9-100"	112030455660
+0	"Theoretical 9-101"	120304556607
+0	"Theoretical 9-102"	112230055660
+-2
+
+2	"9 Note Theoretical"
+0	"Theoretical 9-103"	112004455077
+0	"Theoretical 9-104"	100334406677
+0	"Theoretical 9-105"	120344550708
+0	"Theoretical 9-106"	112034455070
+0	"Theoretical 9-107"	112234450600
+0	"Theoretical 9-108"	112034055077
+0	"Theoretical 9-109"	102304406677
+0	"Theoretical 9-110"	112030055667
+0	"Theoretical 9-111"	100334456670
+0	"Theoretical 9-112"	122304006677
+0	"Theoretical 9-113"	112234055600
+0	"Theoretical 9-114"	112004455670
+0	"Theoretical 9-115"	100334456077
+0	"Theoretical 9-116"	122340556008
+0	"Theoretical 9-117"	112230050667
+0	"Theoretical 9-118"	112004055677
+0	"Theoretical 9-119"	112234050607
+0	"Theoretical 9-120"	112304050677
+0	"Theoretical 9-121"	120304056607
+0	"Theoretical 9-122"	122340506078
+0	"Theoretical 9-123"	120340556708
+0	"Theoretical 9-124"	112034055670
+0	"Theoretical 9-125"	102304456077
+0	"Theoretical 9-126"	122304056077
+0	"Theoretical 9-127"	120304500678
+0	"Theoretical 9-128"	112200405677
+0	"Theoretical 9-129"	120330450677
+0	"Theoretical 9-130"	102300556677
+0	"Theoretical 9-131"	100304556677
+0	"Theoretical 9-132"	122034550077
+0	"Theoretical 9-133"	112234400067
+0	"Theoretical 9-134"	112234405060
+0	"Theoretical 9-135"	112234005067
+0	"Theoretical 9-136"	122340550770
+0	"Theoretical 9-137"	112234400660
+0	"Theoretical 9-138"	112234005660
+0	"Theoretical 9-139"	112234000667
+0	"Theoretical 9-140"	122340556700
+0	"Theoretical 9-141"	122340506770
+0	"Theoretical 9-142"	102234405077
+0	"Theoretical 9-143"	102234405670
+0	"Theoretical 9-144"	112300456077
+0	"Theoretical 9-145"	112234450060
+0	"Theoretical 9-146"	112234055060
+0	"Theoretical 9-147"	112234050067
+0	"Theoretical 9-148"	100234055677
+0	"Theoretical 9-149"	122340550708
+0	"Theoretical 9-150"	122340500708
+0	"Theoretical 9-151"	122340500778
+0	"Theoretical 9-152"	112234050660
+0	"Theoretical 9-153"	122340506701
+-2
+
+
+-1
+2 	"10 Note Theoretical"
+0	"Theoretical 10-1"	112030455667
+0	"Theoretical 10-2"	112234450607
+0	"Theoretical 10-3"	122304056677
+0	"Theoretical 10-4"	120304556677
+0	"Theoretical 10-5"	112230405667
+0	"Theoretical 10-6"	102034456677
+0	"Theoretical 10-7"	102334556670
+0	"Theoretical 10-8"	120344556770
+0	"Theoretical 10-9"	112234405607
+0	"Theoretical 10-10"	120344056677
+0	"Theoretical 10-11"	112034405677
+0	"Theoretical 10-12"	102330456677
+0	"Theoretical 10-13"	122304550678
+0	"Theoretical 10-14"	112200455667
+0	"Theoretical 10-15"	112234455007
+0	"Theoretical 10-16"	110034455677
+0	"Theoretical 10-17"	120344550778
+0	"Theoretical 10-18"	112230055667
+0	"Theoretical 10-19"	112004455677
+0	"Theoretical 10-20"	100334456677
+0	"Theoretical 10-21"	120344556708
+0	"Theoretical 10-22"	112234055607
+0	"Theoretical 10-23"	112034455670
+0	"Theoretical 10-24"	122340556077
+0	"Theoretical 10-25"	120340556777
+0	"Theoretical 10-26"	102234455607
+0	"Theoretical 10-27"	112034055677
+0	"Theoretical 10-28"	122304506678
+0	"Theoretical 10-29"	112234400667
+0	"Theoretical 10-30"	122034550677
+0	"Theoretical 10-31"	112234405067
+0	"Theoretical 10-32"	112234405660
+0	"Theoretical 10-33"	112234005667
+0	"Theoretical 10-34"	112234450067
+0	"Theoretical 10-35"	112234455060
+0	"Theoretical 10-36"	102234455067
+0	"Theoretical 10-37"	122340550077
+0	"Theoretical 10-38"	112234450660
+0	"Theoretical 10-39"	112234055660
+0	"Theoretical 10-40"	112234050667
+0	"Theoretical 10-41"	122340560677
+0	"Theoretical 10-42"	102304455677
+0	"Theoretical 10-43"	122340556607
+0	"Theoretical 10-44"	122340506777
+0	"Theoretical 10-45"	102004956678
+-2
+
+
+
+
+
+
+
+
+
+
+
+
+1 "Major"           100030050000
+1 "Minor"           100300050000
+1 "Diminished"      100300500000
+1 "Augmented"       100030005000
+1 "Sus 4"           100004050000
+1 "Sus 2"           102000050000
+1 "Flat 5"          100030500000
+1 "Major 7"         100030050007
+1 "Major 7 #5"      100030005007
+1 "Major 7 b5"      100030500007
+1 "Dominant 7"	    100030050070
+1 "Dominant 7 #5"   100030005070
+1 "Dominant 7 b5"   100030500070
+1 "Minor Major 7"   100300050007
+1 "Dim Major 7"     100300500007
+1 "Minor 7 b5"      100300500070
+1 "Diminished 7"    100300500700
+1 "Minor 7"         100300050070
+1 "minor 7 b5"      100300005070
+1 "Dominant sus 4"  100004050070
+1 "Major sus 4"     100004050007
+1 "Major 6"         100030050600
+1 "Minor 6"         100300050600
+1 "Major add 9"     109030050000
+1 "Minor add 9"     109300050000
+1 "Major 9"         109030050007
+1 "Maj 9 #5"        109030005007
+1 "Maj 9 b5"        109030500007
+1 "Dominant 9"      109030050070
+1 "Dom 9 b5"        109030500070
+1 "Dom 9 #5"        109030005070
+1 "Dom 7 #9"        100930050070
+1 "Dom 7 b9"        190030050070
+1 "Dom 7 #5 #9"     100930005070
+1 "Dom 7 #5 b9"     190030005070
+1 "Dom 7 b5 #9"     100930500070
+1 "Dom 7 b5 b9"     190030500070
+1 "Dom 9 sus 4"     109004050070
+1 "Min 9"           109300050070
+1 "Min 9 Maj 7"     109300050007
+1 "Dim Maj 9"       109300500007
+1 "Min 9 b5"        109300500070
+1 "Min 6/9"         109300050600
+1 "Maj 6/9"         109030050600
+1 "Maj 6/11"        10003B050600
+1 "Min 6/11"        10030B050600
+1 "Maj 9 #11"       109030B50007
+1 "Maj 9 #5 #11"    109030B05007
+1 "Dom 9 #11"       109030B50070
+1 "Dom 7 #9 #11"    100930B50070
+1 "Dom 7 b9 #11"    190030B50070
+1 "Dom 7"           10900B050070
+1 "Min 11"          10930B050070
+1 "Min 11 b5"       10930B500070
+1 "Maj 13 #11"      109030B50D07
+1 "Dom 13 #11"      109030B50D70
+1 "Dom 13 sus 4"    109004050D70
+1 "Dom 13 b9"       190030050D70
+1 "Dom 13"          109030050D70
+1 "Dom 13 b9 sus 4" 190004050D70
+1 "Min 13"          10930B050D70

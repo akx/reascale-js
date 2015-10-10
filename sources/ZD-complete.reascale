@@ -1,0 +1,495 @@
+# .reascale files can be loaded into the REAPER MIDI editor, via the Key dropdown list.
+#
+# Type 0 is a scale, type 1 is a chord.
+#
+# Lines starting with '#' are ignored.
+#
+# To create a scale definition, place each interval number
+# at the correct number of semitones from the left (root).
+#
+# For snapping to scale, all that matters is which values are not zero.
+# The actual interval numbers are only used when transposing, and can be repeated.
+# If needed (for exotic scales), use A=10, B=11, C=12.
+#
+
+
+
+
+-1		
+2 "3 Note Scales"		
+0	"Chromatic TriMirror"		122000000000
+0	"Chromatic TriMirror"		112000000000
+0	"Do Re Mi "			102030000000
+0	"Flat 6 and 7"			100000000077
+0	"Major Flat 6"			100030006000
+0	"Major Triad 1"			100300006000
+0	"Major Triad 2"			100030050000
+0	"Major Triad 3"			100004000600
+0	"Messiaen 3rd Mode"		100030005000
+0	"Minor Triad 1"			100030000600
+0	"Minor Triad 2"			100300050000
+0	"Minor Triad 3"			100004006000
+0	"Minor TriChord"		102300000000
+0	"Phrygian TriChord"		120300000000
+0	"Sanagari 1"			100004000070
+0	"Sanagari 2"			100004000060
+0	"Sharp 6 and 7"			100000000067
+0	"Ute Tritone 1"			100300000070
+0	"Ute Tritone 2"			100200000060
+-2
+
+-1
+2 "4 note Scales"
+0	"Alternating TetraMirror 1"	120340000000
+0	"Alternating TetraMirror 2"	110230000000
+0	"Alternating TetraMirror 3"	120330000000
+0	"Alternating TetraMirror 4"	120230000000
+0	"Bi Yu"				100200050060
+0	"Chromatic TetraMirror 1"	122300000000
+0	"Chromatic TetraMirror 1"	112300000000
+0	"Diminished 7th Chord"		100300500600
+0	"Dorian TetraChord"		102304000000
+0	"Eskimo Tetratonic"		102030050000
+0	"Genus Primum Inverse"		100004050060
+0	"Har Minor TetraChord 1"	102300500000
+0	"Har Minor TetraChord 2"	102300400000
+0	"Har Minor TetraChord 3"	102200400000
+0	"Major TetraChord 1"		100030050060
+0	"Major TetraChord 2"		100030050007
+0	"Major  TetraChord 2"		100300006070
+0	"Major  TetraChord 3"		102004000070
+0	"Major TetraChord 4"		100004050600
+0	"Major TetraChord 5"		100030050070
+0	"Major TetraChord 6"		102000400600
+0	"Major TetraChord 7"		100304000600
+0	"Major TetraChord 8"		100004050070
+0	"Major TetraChord 9"		100300506000
+0	"Major TetraChord 10"		102004050000
+0	"Major TetraChord 11"		102034000000
+0	"Sixth TetraChord 1"		100030050600
+0	"Sixth TetraChord 2"		102004000600
+0	"Sixth TetraChord 3"		100300400600
+0	"Minor Seventh Chord"		100300050070
+0	"Phrygian TetraChord"		120304000000
+0	"Warao Minor TriChord"		102300000070
+0	"Whole-Tone Tetramirror"	102030400000
+
+-2
+
+-1
+2       "5 Note Scales"
+0	"Sus 4 Pentatonic"		102004050070
+0	"M3 Mj Pentatonic"		100304006070
+0	"Chinese 6 Pentatonic"		100030450007
+0	"Han - kumoi"			102004056000
+0	"In"				120004056000
+0	"Yo"				102004050600
+0	"Indonesian 2 Pentatonic"	120000456000
+0	"Indonesian 3 Pentatonic"	100034050007
+0	"No Name"			120030050600
+0	"Altered Pentatonic"		120004050600
+0	"Balinese Pentachord 1"		120030450000
+0	"Balinese Pentatonic 2"		110030450000
+0	"Blues #V"			100304400007
+0	"Blues Pentacluster 1"		122300500000
+0	"Blues Pentacluster 2"		112200400000
+0	"Blues PentaCluster 3"		112304000000
+0	"Blues PentaCluster 4"		112204000000
+0	"Blues PentaCluster 5"		112300000000
+0	"Blues PentaCluster 6"		122304000000
+0	"Blues#V all flats"		100304500008
+0	"Center-Cluster PentaMirror"	100234005000
+0	"Chaio 1"			102004006070
+0	"Chaio 2 "			102004005070
+0	"Chromatic PentaMirror"		112230000000
+0	"Dominant Pentatonic"		102030050070
+0	"Slendro"			103004060700
+0	"Half Diminished plus b8"	100300500078
+0	"Japanese Pentachord 1 "	120300450000
+0	"Javanese Pentachord 2"		110200450000
+0	"Kokin-Joshi"			120004050070
+0	"Kung"				102030400600
+0	"Locrian PentaMirror"		120304500000
+0	"Lydian Pentachord"		102030450000
+0	"Major Pentachord"		102034050000
+0	"Minor 6th Added"		100304050600
+0	"Minor Pentachord Chad G"	102304050000
+0	"Mixolydian Pentatonic 1"	100034050070
+0	"Mixolydian Pentatonic 2"	100034050060
+0	"Oriental Pentacluster 1"	112004400000
+0	"Oriental Pentacluster 2"	112004500000
+0	"Oriental Raga Guhamano"	102004000670
+0	"Romanian Bacovia 1"		100034006007
+0	"Romanian Bacovia 2"		100034005007
+0	"Spanish Pentacluster 1"	120344000000
+0	"Spanish Pentacluster 2"	120334000000
+0	"Spanish Pentacluster 3"	110234000000
+0	"Spanish Pentacluster 4"	120234000000
+-2
+0	"Major Pentatonic"		102030050600
+0	"Minor Pentatonic"		100304050070
+0	"Pelog"				120300056000
+0	"Iwato"				120004500070
+0	"Kumoi Scale"			102300050600
+0	"Hirajoshi"			102300056000
+
+-1
+2	"6 Note Scales"
+0	"Sus 4"				102004050670
+0	"Augmented, Messiaen"		100330056007
+0	"Blues Dorian Hexatonic 1 "	102330050600
+0	"Blues Dorian Hexatonic 2"	120330050600
+0	"Blues Dorian Hexatonic 3"	110230050600
+0	"Blues Dorian Hexatonic 4"	110330050600
+0	"Blues Dorian Hexatonic 5"	120230050600
+0	"Blues Minor all flats"		100304550070
+0	"Blues Minor Maj7"		100304450007
+0	"Chromatic HexaMirror all #"	112234000000
+0	"Chromatic HexaMirror all b"	122334000000
+0	"Double-Phrygian Hexatonic"	120304500600
+0	"Eskimo Hexatonic 1"		102030405600
+0	"Eskimo Hexatonic 2"		102030405007
+0	"Genus Secundum"		100034050607
+0	"Hawaiian"			102300050607
+0	"Honchoshi Plagal Form"		120304500070
+0	"Lydian #2 Hexatonic"		100230050607
+0	"Lydian b3 Hexatonic"		100330050607
+0	"Lydian Hexatonic"		102030050607
+0	"Major Bebop Hexatonic"		102030055600
+0	"Major Blues alternate"		102230050600
+0	"Minor Hexatonic"		102304050070
+0	"Phrygian Hexatonic"		100304056070
+0	"Prometheus 2"			102030500670
+0	"Prometheus 3"			102030400670
+0	"Prometheus Neapolitan 2"	120030500670
+0	"Pyramid Hexatonic"		102304500600
+0	"Ritsu"				120304006070
+0	"Scottish Hexatonic Arezzo"	102034050600
+0	"Takemitsu Tree Line Mod 1"	102300506070
+0	"Takemitsu Tree Line Mod 2"	102200405007
+0	"Takemitsu Tree Line Mod 3"	102200405060
+0	"Takemitsu Tree Line Mod 4"	102300406007
+0	"Takemitsu Tree Line Mod 5"	102300506007
+0	"Whole tone alternate 1"	102030405060
+0	"Whole tone alternate 2"	102030406060
+0	"Whole tone alternate 3"	102030506070
+-2
+0	"Prometheus"			102030406070
+0	"Prometheus Neopolitan"		120030406070
+0	"Whole-tone"			102030405070
+0	"Blues"				100304450070
+0	"Sixtone Mode 1"		100230056007
+0	"Sixtone Mode 2"		120034005600
+
+
+
+-1
+2	"7 Note Scales"
+0	"Ionian Augmented"		102034005607
+0	"Dorian #4"			102300450670
+0	"Mixolydian b9b13"		120034056070
+0	"Lydian #9"			100230450607
+0	"Alt Dominant bb7"		120345006700
+0	"Dorian b2"			120304050670
+0	"Lydian Aug"			102030405607
+0	"Lydian b7"			102030450670
+0	"Mixolydian b13"		102034056070
+0	"Locrian Nat 9"			102304506070
+0	"Alt Dominant"			120230405070
+0	"Locrian Nat 6"			120304500670
+0	"Hungarian Folk"		120034056007
+0	"Purvi"				120030456007
+0	"Todi"				120300456007
+0	"Saba"				102340056070
+0	"Spanish Dominant"		120300456070
+0	"Smyrneiko"			102300450607
+0	"Mixolydian b9"			120034050670
+0	"Major Locrian"			102034506070
+0	"Lydian Minor"			102030456070
+0	"Leading Wholetone"		102030405067
+0	"Oriental No1"			120034506070
+0	"Oriental No2"			120034500670
+0	"Neopolitan Major"		120304050607
+0	"Neopolitan Minor"		120304056007
+0	"Aeolian 2# 4# #5"		100230405607
+0	"Aeolian Flat 3b 5b 6b 8b"	100330506608
+0	"Aeolian Flat b3 b5 b6"		100330506607
+0	"Bhairubahar Thaat"		120034050607
+0	"Blues Heptatonic"		100304450670
+0	"Blues Modified"		102304450070
+0	"Blues Phrygian 1"		120304450070
+0	"Blues Phrygian 2"		120304550070
+0	"Blues with Leading Tone"	100304450067
+0	"Chromatic Dorian"		112004055600
+0	"Chromatic Dorian Inverse "	100234050067
+0	"Chromatic HeptaMirror"		112234400000
+0	"Chromatic Hypodorian 1"	102330056600
+0	"Chromatic Hypodorian 2"	102230055600
+0	"Chromatic Hypodorian Inv"	100234005670
+0	"Chromatic Hypophrygian"	112004450600
+0	"Chromatic Lydian"		120034500607
+0	"Chromatic Mixolydian 1"	112030450070
+0	"Chromatic Mixolydian 2"	112004450070
+0	"Chromatic Mixolydian 3"	112004450060
+0	"Chromatic Mixolydian Inv"	102004450067
+0	"Chromatic Phrygian"		100234005067
+0	"Chromatic Phrygian Inverse"	112030055600
+0	"Dorian b5"			102304500670
+0	"Enigmatic Ascending 1"		110030405067
+0	"Enigmatic Ascending 2"		120030506078
+0	"Enigmatic Descending 1"	110034005067
+0	"Enigmatic Descending 2"	120034005067
+0	"Enigmatic Minor"		120300405067
+0	"Enigmatic Minor all #s"	110200405067
+0	"Enigmatic Minor all bs"	120300506078
+0	"Pelog alternate"		100040456007
+-2
+
+2       "7 Note Scales"
+0	"Gipsy Hexatonic 1"		120004506670
+0	"Gipsy Hexatonic 2"		110004406670
+0	"Gipsy Hexatonic 3"		110004405660
+0	"Gipsy Hexatonic 4"		120004505670
+0	"Gypsy Hexatonic 5"		120034056600
+0	"Hindi 5 flats"			120330506070
+0	"Houzam"			100234050607
+0	"Hungarian Gypsy 1"		102300556070
+0	"Hungarian Gypsy 2"		102200455060
+0	"Phrygian dim 4th"		120340056070
+0	"Phrygian dim 4th alternate"	120230056070
+0	"Jazz Minor Inverse"		120304050670
+0	"Locrian 2"			102304506007
+0	"Locrian bb7"			120304506700
+0	"Lydian Augmented 2"		120340506070
+0	"Marva or Marvi"		120030450607
+0	"Marva Thaat"			110030450607
+0	"Major Bebop Heptatonic"	102034055600
+0	"Minor Bebop 1"			102330050670
+0	"Minor Bebop Heptatonic"	102230050670
+0	"Mixolydian Augmented"		102034005670
+0	"Mixolydian b5"			102034500670
+0	"Neapolitan Minor Mode"		112030405600
+0	"Nohkan 1"			102004506608
+0	"Nohkan 2"			102004505607
+0	"Rock 'n Roll 1"		100234050660
+0	"Rock 'n Roll 2"		100234050670
+0	"Romanian Major"		120030450670
+0	"Sabach 1"			102330056070
+0	"Sabach 2"			102230056070
+0	"Spanish Heptatonic 1"		100334406070
+0	"Spanish Heptatonic 2"		100234506070
+0	"Super Locrian all sharps"	110230405060
+0	"Superlocrian, Diminished 1"	110330406070
+0	"Superlocrian, Diminished 2"	120230506070
+0	"Todi b7 1"			110200450660
+0	"Todi b7 2"			120300450670
+0	"Ultra Locrian 1"		110230405600
+0	"Ultra Locrian 2"		120230405600
+-2
+0	"Major"				102034050607
+0	"Dorian"			102304050670
+0	"Phrygian"			120304056070
+0	"Lydian"			102030450607
+0	"Mixolydian"			102034050670
+0	"Minor"				102304056070
+0	"Locrian"			120304506070
+0	"Harmonic Minor"		102304056007
+0	"Harmonic Major"		102034056007
+0	"Medolic Minor"			102304050607
+0	"Hungarian Gypsy 1"		102300456007
+0	"Hungarian Gypsy 2"		102300456070
+0	"Hungarian Major"		100230450670
+0	"Enigmatic"			120030405067
+0	"Persian"			120034506007
+0	"Composite Blues"		100334450070
+
+
+
+
+-1
+2	"8 Note Scales"
+0	"Dorian Bebop"			102334050607
+0	"Adonai Malakh 1"		112304050670
+0	"Adonai Malakh 2"		122304050670
+0	"Algerian"			102304456007
+0	"Auxillary Diminished"		102304405607
+0	"Blues Diminished"		110230450660
+0	"Blues Octatonic"		102304450670
+0	"Chromatic OctaMirror"		112234450000
+0	"Diminished"			102304505607
+0	"Dorian Aeolian 1"		102304055670
+0	"Dorian Aoelian 2"		102304056670
+0	"Enigmatic alternate 1"		120034506077
+0	"Enigmatic alterate 2"		120034506067
+0	"Half-Dimiished Bebop"		120304556007
+0	"Half-Diminished Symmetrrical"	120230450670
+0	"Harmonic Neapolitan Minor 1"	122304056008
+0	"Harmonic Neapolitan Minor 2"	112204055007
+0	"Harmonic Neapolitan Minor3"	112304056007
+0	"Hungarian Minor b2"		112300456007
+0	"JG Octatonic "			120234050670
+0	"JG Octatonic all 3b"		120334050670
+0	"Lydian b3 "			102330450607
+0	"Lydian Dim b7"			102330450670
+0	"Lydian Dominant alternate"	102030450677
+0	"Magen Abot"			120230405607
+0	"Magen Abot (3b 2#)"		110330406607
+0	"Magen Abot all flats"		120340506708
+0	"Magen Abot all sharps"		110230405607
+0	"Maqam Hijaz"			120034056067
+0	"Maqam Shadd'araban 1"		120234500670
+0	"Maqam Shadd'araban 2"		120344500770
+0	"Minor Bebop 1"			102234050670
+0	"Minor Bebop 2"			102334050670
+0	"Minor Gypsy"			102300456077
+0	"Neveseri 1"			110200455067
+0	"Neveseri 2"			120300456067
+0	"Oriental 2"			120034500667
+0	"Phrygian Aeolian 1"		122304056070
+0	"Phrygian Aeolian 2"		112304056070
+0	"Phrygian Locrian 1"		120304456070
+0	"Phrygian Locrian 2"		120304556070
+0	"Phrygian Major 1"		120344056070
+0	"Phrygian Major 2"		120234056070
+0	"Prokofiev 1"			120304506078
+0	"Prokofiev 2"			120304506067
+0	"Shostakovich 1"		110230450607
+0	"Shostakovich 2"		120330550608
+0	"Shostakovich 3"		120230450607
+0	"Spanish 8 Tones 1"		120234506070
+0	"Spanish 8 Tones 2"		120344506070
+0	"Spanish 8 Tones 3"		120334506070
+0	"Utility Minor 1"		102304056067
+0	"Utility Minor 2"		102304056077
+0	"Zirafkend"			102304055607
+-2
+0	"Whole-Half Dim"		102304506607
+0	"Half-Whole Dim"		120330450670
+0	"Japanese"			102034450607
+0	"Major Bebop"			102034055607
+0	"Mixolydian Bebop 1"		102034050677
+0	"Mixolydian Bebop 2"		102034450670
+
+
+
+-1
+2	"9 Note Scales"
+0	"Blues Enneatonic"		102234450670
+0	"Chromatic Bebop 1"		122034050677
+0	"Chromatic Bebop 2"		112034050667
+0	"Chromatic Diatonic Dorian 1"	122304056670
+0	"Chromatic Diatonic Dorian 2"	112304055670
+0	"Chromatic NonaMirror"		112234455000
+0	"Chromatic Permuted Diatonic"	112034055607
+0	"Full Minor"			102304055667
+0	"Full Minor all flats"		102304056677
+0	"Genus Chromaticum 1"		120234055607
+0	"Genus Chromaticum 2"		110234055607
+0	"Genus Chromaticum 3"		120344056708
+0	"Houseini 1"			102334050600
+0	"Houseini 2"			102234055670
+0	"Kiourdi"			102304455670
+0	"Lydian Mixolydian 1"		102034450677
+0	"Lydian Mixolydian 2"		102034450667
+0	"Moorish Phrygian 1"		130034055077
+0	"Moorish Phrygian 2"		120234056067
+0	"Moorish Phrygian 3"		130034056077
+0	"Moorish Phrygian 4"		110234055067
+0	"Moorish Phrygian 5"		120344056078
+0	"Symmetrical Nonatonic 1"	112030455067
+0	"Symmetrical Nonatonic 2"	112030456067
+0	"untitled Nonatonic 1"		112304455600
+0	"untitled Nonatonic 2"		120234450670
+0	"untitled Nonatonic 3"		110234450660
+0	"untitled Nonatonic 4"		120374550770
+0	"Youlan 1"			112034450670
+0	"Youlan 2"			122044550770
+-2
+
+
+
+-1
+2	"10 Note Scales"
+0	"Untitled Decatonic 1"		102334056677
+0	"Untitled Decatonic 2"		102334450677
+0	"Untitled Decatonic 3"		120344556078
+0	"Untitled Decatonic 3"		120344506778
+0	"Untitled Decatonic 4"		122304556078
+0	"Untitled Decatonic 5"		122304556670
+0	"Untitled Decatonic 6"		112034450677
+0	"Untitled Decatonic 7"		112034455607
+0	"Untitled Decatonic 8"		112230455607
+0	"Untitled Decatonic 9"		122334056670
+0	"Chromatic DecaMirror 1"	122334556600
+0	"Chromatic DecaMirror 2"	112234455600
+0	"Major & Minor mixed"		102234055667
+0	"Minor Pentatonic Decatonic"	102234450667
+0	"Pan Diminished Blues"		122330450677
+0	"Pan Lydian"			102334455607
+0	"Symmetrical Decatonic"		112034455067
+-2
+
+
+
+
+1 "Major"           100030050000
+1 "Minor"           100300050000
+1 "Diminished"      100300500000
+1 "Augmented"       100030005000
+1 "Sus 4"           100004050000
+1 "Sus 2"           102000050000
+1 "Flat 5"          100030500000
+1 "Major 7"         100030050007
+1 "Major 7 #5"      100030005007
+1 "Major 7 b5"      100030500007
+1 "Dominant 7"	    100030050070
+1 "Dominant 7 #5"   100030005070
+1 "Dominant 7 b5"   100030500070
+1 "Minor Major 7"   100300050007
+1 "Dim Major 7"     100300500007
+1 "Minor 7 b5"      100300500070
+1 "Diminished 7"    100300500700
+1 "Minor 7"         100300050070
+1 "minor 7 b5"      100300005070
+1 "Dominant sus 4"  100004050070
+1 "Major sus 4"     100004050007
+1 "Major 6"         100030050600
+1 "Minor 6"         100300050600
+1 "Major add 9"     109030050000
+1 "Minor add 9"     109300050000
+1 "Major 9"         109030050007
+1 "Maj 9 #5"        109030005007
+1 "Maj 9 b5"        109030500007
+1 "Dominant 9"      109030050070
+1 "Dom 9 b5"        109030500070
+1 "Dom 9 #5"        109030005070
+1 "Dom 7 #9"        100930050070
+1 "Dom 7 b9"        190030050070
+1 "Dom 7 #5 #9"     100930005070
+1 "Dom 7 #5 b9"     190030005070
+1 "Dom 7 b5 #9"     100930500070
+1 "Dom 7 b5 b9"     190030500070
+1 "Dom 9 sus 4"     109004050070
+1 "Min 9"           109300050070
+1 "Min 9 Maj 7"     109300050007
+1 "Dim Maj 9"       109300500007
+1 "Min 9 b5"        109300500070
+1 "Min 6/9"         109300050600
+1 "Maj 6/9"         109030050600
+1 "Maj 6/11"        10003B050600
+1 "Min 6/11"        10030B050600
+1 "Maj 9 #11"       109030B50007
+1 "Maj 9 #5 #11"    109030B05007
+1 "Dom 9 #11"       109030B50070
+1 "Dom 7 #9 #11"    100930B50070
+1 "Dom 7 b9 #11"    190030B50070
+1 "Dom 7"           10900B050070
+1 "Min 11"          10930B050070
+1 "Min 11 b5"       10930B500070
+1 "Maj 13 #11"      109030B50D07
+1 "Dom 13 #11"      109030B50D70
+1 "Dom 13 sus 4"    109004050D70
+1 "Dom 13 b9"       190030050D70
+1 "Dom 13"          109030050D70
+1 "Dom 13 b9 sus 4" 190004050D70
+1 "Min 13"          10930B050D70

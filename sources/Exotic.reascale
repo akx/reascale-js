@@ -1,0 +1,60 @@
+# .reascale files can be loaded into the REAPER MIDI editor, via the Key dropdown list.
+#
+# Type 0 is a scale, type 1 is a chord.
+#
+# Lines starting with '#' are ignored.
+#
+# To create a scale definition, place each interval number
+# at the correct number of semitones from the left (root).
+#
+# For snapping to scale, all that matters is which values are not zero.
+# The actual interval numbers are only used when transposing, and can be repeated.
+# If needed (for exotic scales), use A=10, B=11, C=12.
+#
+# examples:
+#
+# 0 "Major"           102034050607
+# 1 "Major triad"     100030050000
+# 0 "Blues"           100304450070
+# 1 "Dim 7th chord"   100300500700
+
+
+0 "Dorian"            102304050670
+0 "Phrygian"          120304056070
+0 "Lydian"            102030450607
+0 "Mixolydian"        102034050670
+0 "Locrian"           120304506070
+0 "Locrian Natural 6" 120304500670
+0 "Ionian Augmented" 102034005607
+0 "Dorian #4" 102300450670
+0 "Phrygian Dominant" 120034056070
+0 "Lydian #2" 100230450607
+0 "Altered Dominant bb7" 120340506700
+0 "Dorian b2" 120304050670
+0 "Lydian Augmented" 102030405607
+0 "Lydian Dominant" 102030450670
+0 "Mixolydian b6" 102034056070
+0 "Locrian #2"   102304506070
+0 "SuperLocrian"  120340506070
+0 "Dorian Hexatonic (Celtic)" 100304050670
+0 "Phrygian Hexatonic (Arabic)" 120004056070
+0 "Lydian Pentatonic (Japanese)" 100030450007
+0 "Mixolydian Pentatonic (Hindu)" 100034050070
+0 "Locrian Pentatonic (Somewhere very strange)" 100304500070 
+0 "Whole Tone"        102030506070
+0 "Diminished"        120304506607
+
+1 "4ths (5ths)" 100004000000
+1 "5ths (4ths)" 100000050000
+1 "Tritone"     100000500000
+1 "sus2"        102000050000
+1 "sus4"        100004050000
+1 "Dim triad"   100300500000
+1 "6"           100030050600
+1 "m6"          100300050600
+1 "Maj7"        100030050007
+1 "m7"          100300050070
+1 "7"           100030050070
+1 "m7b5"        100300500070
+1 "mMaj7"       100300050007
+ 

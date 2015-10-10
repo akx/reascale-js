@@ -1,0 +1,100 @@
+# .reascale files can be loaded into the REAPER MIDI editor, via the Key dropdown list.
+#
+# Type 0 is a scale, type 1 is a chord.
+#
+# Lines starting with '#' are ignored.
+#
+# To create a scale definition, place each interval number
+# at the correct number of semitones from the left (root).
+#
+# For snapping to scale, all that matters is which values are not zero.
+# The actual interval numbers are only used when transposing, and can be repeated.
+# If needed (for exotic scales), use A=10, B=11, C=12.
+#
+# examples:
+#
+# 0 "Major"           102034050607
+# 1 "Major triad"     100030050000
+# 0 "Blues"           100304450070
+# 1 "Dim 7th chord"   100300500700
+
+
+0 "Major Pentatonic"  102030050600
+0 "Sus 4 Pentatonic"  102004050070
+0 "M3 Mj Pentatonic"  100304006070
+0 "M4 Mj Pentatonic"  102004050600
+0 "Minor Pentatonic"  100304050070
+0 "Chin6 Pentatonic"  100030450007
+0 "Jap 1 Pentatonic"  120004056000
+0 "Hirajoshi"         102300056000
+0 "Jap 3 Pentatonic"  102004056000
+0 "Iwato"             120004500070
+0 "In"                120304056070
+0 "Yo"                102304050670
+0 "Pelog"             120300056000
+0 "Indo2 Pentatonic"  120000456000
+0 "Indo3 Pentatonic"  100034050007
+0 "Kumoi Scale"       102300050600
+0 "Sixtone Mode 1"    100230056007
+0 "Sixtone Mode 2"    120034005600
+0 "Prometheus"        102030406070
+0 "Prometheus Neop"   120030406070
+0 "Whole-tone"        102030405070
+0 "Blues"             100304450070
+0 "Sus 4"             102004050670
+0 "Major"             102034050607
+0 "Dorian"            102304050670
+0 "Phrygian"          120304056070
+0 "Lydian"            102030450607
+0 "Mixolydian"        102034050670
+0 "Minor"             102304056070
+0 "Locrian"           120304506070
+0 "Harmonic Minor"    102304056007
+0 "Locrian Nat 6"     120304506070
+0 "Ionian Aug"        102034005607
+0 "Dorian #4"         102300450670
+0 "Mixolydian b9b13"  120034056070
+0 "Lydian #9"         100230450607
+0 "Alt Dominant bb7"  120345006700
+0 "Jazz Minor"        102304050607
+0 "Dorian b2"         120304050670
+0 "Lydian Aug"        102030405607
+0 "Lydian b7"         102034050670
+0 "Micolydian b13"    102034056070
+0 "Locrian Nat 9"     102304506070
+0 "Alt Dominant"      120230405070
+0 "Tarz-nwin"         120304500670
+0 "Hejaz"             120034056070
+0 "Nikris"            102300450670
+0 "Lydian b7"         102030450670
+0 "Musta-ar"          100230450607
+0 "Javanese"          120304050670
+0 "Hindustan"         102034056070
+0 "Hejaz-Kar"         120034056007
+0 "Purvi"             120030456007
+0 "Todi"              120300456007
+0 "Saba"              102340056070
+0 "Hungarian Major"   100230450670
+0 "Hungarian Gypsy1"  102300456007
+0 "Hungarian Gypsy2"  102300456070
+0 "Harmonic Major"    102034056007
+0 "Spanish Dominant"  120300456070
+0 "Smyrneiko"         102300450607
+0 "Mixolydian b9"     120034050670
+0 "Enigmatic"         120030405067
+0 "Major Locrian"     102034506070
+0 "Lydian Minor"      102030456070
+0 "Leading Wholetone" 102030405067
+0 "Persian"           120034506007
+0 "Oriental No1"      120034506070
+0 "Oriental No2"      120034500670
+0 "Neopolitan Major"  120304050607
+0 "Neopolitan Minor"  120304056007
+0 "Composite Blues"   100334450070
+0 "Whole-Half Dim"    102304506607
+0 "Half-Whole Dim"    120330450670
+0 "Japanese"          102034450607
+0 "Major Bebop"       102034055607
+0 "Dorian Bebop"      102334050607
+0 "Mixolydian Bebop1" 102034050677
+0 "Mixolydian Bebop2" 102034450670
