@@ -1,6 +1,6 @@
 {
   "name": "reascale-js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert .reascale scale files to JavaScript",
   "author": "Aarni Koskela <akx@iki.fi>",
   "license": "MIT",
