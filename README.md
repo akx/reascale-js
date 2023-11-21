@@ -1,37 +1,37 @@
 reascale-js
 ===========
 
-Reaper .reascale files in JavaScript.
+Reaper .reascale files in machine-readable formats.
 
 Usage
 -----
 
-You can use the convert-cli script to generate JavaScript of your own Reascale files.
+You can use the convert.py tool to generate machine-readable formats or JavaScript of your own Reascale files.
 
 ```
 # Convert a single file
-node convert-cli.js < my.reascale > my.js
+python3 convert.py < my.reascale > my.js
 
 # Convert multiple files into single omnibus
-node convert-cli.js --omnibus=my-omnibus.js *.reascale
+python3 convert.py --omnibus my-omnibus.js *.reascale
 
 # Convert multiple files into respective .jsen
-node convert-cli.js --single-files *.reascale
+python3 convert.py --single-files *.reascale
 
 # Convert multiple files into respective .jsen into another directory
-node convert-cli.js --single-files --dest-dir foo *.reascale
+python3 convert.py --single-files --dest-dir foo *.reascale
 
 # Convert multiple files into respective .jsen into another directory and an omnibus in /dev/null
-node convert-cli.js --omnibus /dev/null --single-files --dest-dir foo *.reascale
+python3 convert.py --omnibus /dev/null --single-files --dest-dir foo *.reascale
 ```
 
-Omnibus file
-------------
+Omnibus files
+-------------
 
-The included omnibus.js script contains all of the scales from the files in `sources/`
-in deduplicated form.
+The included omnibus.js script and omnibus.json files 
+contain all of the scales from the files in `sources/` in deduplicated form.
  
-To regenerate this file, run `npm run rebuild`.
+To regenerate this file, run `make omnibus`.
  
 
 Scale file copyrights
