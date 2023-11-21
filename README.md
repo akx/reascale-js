@@ -41,9 +41,11 @@ The source Reascale files are copyright their original authors, acquired from th
 They are reproduced in this repo for usability reasons.
 
 * [Exotic.reascale](http://stash.reaper.fm/v/7971/ReaScale-Exotic%20Scales%20%26%20Modes.zip) by Aeolian1
-* [xasman.reascale](http://stash.reaper.fm/v/7982/xasman.reascale) by Xasman
+* [ZD-Ultimate.reascale](http://stash.reaper.fm/v/8075/ZD-Ultimate.reascale) by zappadave
 * [ZD-basic.reascale](http://stash.reaper.fm/v/8065/ZD-basic.reascale) by zappadave
+* [ZD-complete with chords laptop ed.js](https://stash.reaper.fm/v/27335/ZD-complete%20%20with%20chords%20laptop%20ed.reascale) by zappadave
 * [ZD-complete-plus.reascale](http://stash.reaper.fm/v/8073/ZD-complete-plus.reascale) by zappadave
 * [ZD-complete.reascale](http://stash.reaper.fm/v/8070/ZD-complete.reascale) by zappadave
-* [ZD-Ultimate.reascale](http://stash.reaper.fm/v/8075/ZD-Ultimate.reascale) by zappadave
 * [ZDScaleWorld.reascale](http://stash.reaper.fm/v/7975/ZDScaleWorld.reascale) by zappadave
+* [skylars.reascale](https://stash.reaper.fm/v/46318/skylars.reascale) by mister_happy
+* [xasman.reascale](http://stash.reaper.fm/v/7982/xasman.reascale) by Xasman
